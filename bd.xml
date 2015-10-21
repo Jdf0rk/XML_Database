@@ -7,11 +7,11 @@
 		<cursus>IR</cursus>
 		<groupe>IA1</groupe>
 		<matieres>
-			<matiere id="Art1" note="8"/>
+			<matiere id="Art1" note="8" noteS2="10"/>
 			<matiere id="Inf" note="17"/>
 			<matiere id="Sp" note="13"/>
 			<matiere id="Mt" note="12"/>
-			<matiere id="Esp" note="4"/>
+			<matiere id="Esp" note="4" noteS2="6"/>
 			<matiere id="Maths" note="10"/>
 		</matieres>
 	</etudiant>

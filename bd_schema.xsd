@@ -18,6 +18,21 @@
   </xs:restriction>
 </xs:simpleType>
 
+<xsd:attribute name="note">
+	<xsd:simpleType>
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="20"/>
+		</xs:restriction>
+	</xsd:simpleType>
+</xsd:attribute>
+
+<xsd:element name ="matiere">
+	<xsd:complexType>
+		<xsd:attribute ref="note" use="required">
+	</xsd:complexType>
+</xsd:element>
+
 <xsd:element name ="matieres">
 	<xsd:complexType>
 		<xsd:sequence>
@@ -59,10 +74,10 @@
 	</xsd:complexType>
 </xsd:element>
 
-<xsd:element name ="matiere">
+<xsd:element name ="matiere_uf">
 	<xsd:complexType>
 		<xsd:sequence>
-			<xsd:element ref="expose" minOccurs="0" maxOccurs="unbounded"/>
+			
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:element>
