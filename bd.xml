@@ -20,11 +20,12 @@
 	<etudiant id="MD"> 
 		<nom>Matthieu</noms>
 		<prenom>De Sousa</prenom>
-		<datenaissance>01-01-1989</datenaissance>
+		<datenaissance>09-06-1989</datenaissance>
 		<annee>4</annee>
 		<cursus>IR</cursus>
 		<groupe>IA1</groupe>
 		<matieres>
+			<matiere id="Rés Mob" note="20"/>
 			<matiere id="Art1" note="10"/>
 			<matiere id="Inf" note="15"/>
 			<matiere id="Ph" note="7" noteS2="17"/>
@@ -158,5 +159,182 @@
 		<Nom>Algèbre</Nom>
 		<code>DEV5</code>
 		<annee>2</annee>
+	</matiere_uf>
+	<matiere_uf id="Electromag">
+		<Nom>Electromagnétisme</Nom>
+		<code>ELM48</code>
+		<annee>2</annee>
+	</matiere_uf>
+	<matiere_uf id="SYSEC">
+		<Nom>Systemes electroniques et communicants</Nom>
+		<code>SEC5</code>
+		<annee>2</annee>
+	</matiere_uf>
+	<matiere_uf id="Management">
+		<Nom>Aptitudes Managériales</Nom>
+		<code>AM42</code>
+		<annee>2</annee>
+	</matiere_uf>
+	<matiere_uf id="PPI">
+		<Nom>Projet personnel individualisé</Nom>
+		<code>12CC</code>
+		<annee>2</annee>
+	</matiere_uf>
+	<matiere_uf id="Algo">
+		<Nom>Algorithmique</Nom>
+		<code>12MIF</code>
+		<annee>2</annee>
+	</matiere_uf>
+	<matiere_uf id="Stat">
+		<Nom>Statistique</Nom>
+		<code>MIMT31</code>
+		<annee>2</annee>
+	</matiere_uf>
+	<matiere_uf id="Auto">
+		<Nom>Automatisme</Nom>
+		<code>12MIAU</code>
+		<annee>2</annee>
+	</matiere_uf>
+	<matiere_uf id="Entre">
+		<Nom>Connaissances de l'entreprise</Nom>
+		<code>CGE31</code>
+		<annee>2</annee>
+	</matiere_uf>
+	<matiere_uf id="AN">
+		<Nom>Analyse numérique</Nom>
+		<code>AN23</code>
+		<annee>3</annee>
+	</matiere_uf>
+	<matiere_uf id="SysEx">
+		<Nom>Systeme d'exploitation</Nom>
+		<code>SYSEX33</code>
+		<annee>3</annee>
+	</matiere_uf>
+	<matiere_uf id="RO">
+		<Nom>Recherche opérationnelle</Nom>
+		<code>kro33</code>
+		<annee>3</annee>
+	</matiere_uf>
+	<matiere_uf id="BDD">
+		<Nom>Donnée et information</Nom>
+		<code>ZDD33</code>
+		<annee>3</annee>
+	</matiere_uf>
+	<matiere_uf id="TRE">
+		<Nom>Technique de recherche d'emploi</Nom>
+		<code>TRERE33</code>
+		<annee>3</annee>
+	</matiere_uf>
+	<matiere_uf id="CompMath">
+		<Nom>Complément de Mathématiques</Nom>
+		<code>COMMA33</code>
+		<annee>3</annee>
+	</matiere_uf>
+	<matiere_uf id="topo">
+		<Nom>Topologie</Nom>
+		<code>TSK33</code>
+		<annee>3</annee>
+	</matiere_uf><matiere_uf id="Modé">
+		<Nom>Modélisation</Nom>
+		<code>MOD33</code>
+		<annee>3</annee>
+	</matiere_uf>
+	<matiere_uf id="COO">
+		<Nom>Conception orienté objet</Nom>
+		<code>QSDF33</code>
+		<annee>4</annee>
+	</matiere_uf>
+	<matiere_uf id="IS">
+		<Nom>Internet et sécurité</Nom>
+		<code>JBFH33</code>
+		<annee>4</annee>
+	</matiere_uf>
+	<matiere_uf id="Gestion">
+		<Nom>SIMGEST</Nom>
+		<code>LDSK78J</code>
+		<annee>4</annee>
+	</matiere_uf>
+	<matiere_uf id="Périph">
+		<Nom>Microcontroleurs et périphérique</Nom>
+		<code>lJSD78</code>
+		<annee>4</annee>
+	</matiere_uf>
+	<matiere_uf id="Rés Mob">
+		<Nom>Réseau mobile et sans fil</Nom>
+		<code>IOF53</code>
+		<annee>4</annee>
+	</matiere_uf>
+	<matiere_uf id="Transmi">
+		<Nom>Techniques et systemes de transmission</Nom>
+		<code>MKDS478</code>
+		<annee>4</annee>
+	</matiere_uf>
+	<matiere_uf id="Real time">
+		<Nom>Systeme conccurents et Temps reel</Nom>
+		<code>RTR11</code>
+		<annee>4</annee>
+	</matiere_uf>
+	<matiere_uf id="Proj tuto">
+		<Nom>Projets tutoré et conduite de projet</Nom>
+		<code>PRO54</code>
+		<annee>4</annee>
+	</matiere_uf>
+	<matiere_uf id="IA">
+		<Nom>Systemes intelligents</Nom>
+		<code>SOP64</code>
+		<annee>4</annee>
+	</matiere_uf>
+	<matiere_uf id="Interco">
+		<Nom>Interconnexion des réseaux</Nom>
+		<code>JDP792</code>
+		<annee>4</annee>
+	</matiere_uf>
+	</matiere_uf>
+	<matiere_uf id="Paradigm">
+		<Nom>Paradigme de programmation</Nom>
+		<code>DLP48</code>
+		<annee>5</annee>
+	</matiere_uf>
+	</matiere_uf>
+	<matiere_uf id="SE">
+		<Nom>Fiabilité des systemes embarqués</Nom>
+		<code>Jf42</code>
+		<annee>5</annee>
+	</matiere_uf>
+	</matiere_uf>
+	<matiere_uf id="Méthode">
+		<Nom>Méthode et outils pour l'analyse fonctionnelle</Nom>
+		<code>JSD2</code>
+		<annee>5</annee>
+	</matiere_uf>
+	</matiere_uf>
+	<matiere_uf id="IMod">
+		<Nom>Ingénierie des modèles</Nom>
+		<code>RD7</code>
+		<annee>5</annee>
+	</matiere_uf>
+	</matiere_uf>
+	<matiere_uf id="Proc Dev">
+		<Nom>Processus de développement logiciel</Nom>
+		<code>PDL45</code>
+		<annee>5</annee>
+	</matiere_uf>
+	</matiere_uf>
+	<matiere_uf id="Services">
+		<Nom>Architectures orienté services</Nom>
+		<code>AOS87</code>
+		<annee>5</annee>
+	</matiere_uf>
+	</matiere_uf>
+	<matiere_uf id="Prog Cont">
+		<Nom>Programmation par contrainte</Nom>
+		<code>PPC94</code>
+		<annee>5</annee>
+	</matiere_uf>
+	</matiere_uf>
+	<matiere_uf id="Res emerg">
+		<Nom>Réseau émergent</Nom>
+		<code>RE42</code>
+		<annee>5</annee>
 	</matiere_uf>
 </scolarite>
