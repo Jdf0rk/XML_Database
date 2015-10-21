@@ -1,4 +1,4 @@
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ï»¿<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="bd_schema.xsd">
 <scolarite>
 	<etudiant id="VC"> 
@@ -25,7 +25,7 @@
 		<cursus>IR</cursus>
 		<groupe>IA1</groupe>
 		<matieres>
-			<matiere id="Rés Mob" note="20"/>
+			<matiere id="Res Mob" note="20"/>
 			<matiere id="Art1" note="10"/>
 			<matiere id="Inf" note="15"/>
 			<matiere id="Ph" note="7" noteS2="17"/>
@@ -35,7 +35,7 @@
 		</matieres>
 	</etudiant>
 	<etudiant id="JS"> 
-		<nom>Josué</noms>
+		<nom>Josue</noms>
 		<prenom>Miguel</prenom>
 		<datenaissance>25-12-1992</datenaissance>
 		<annee>5</annee>
@@ -121,7 +121,7 @@
 		<annee>3</annee>
 	</matiere_uf>
 	<matiere_uf id="Mt">
-		<Nom>Matériaux</Nom>
+		<Nom>Materiaux</Nom>
 		<code>ART</code>
 		<annee>4</annee>
 	</matiere_uf>
@@ -131,7 +131,7 @@
 		<annee>4</annee>
 	</matiere_uf>
 	<matiere_uf id="Cg">
-		<Nom>Chimie générale</Nom>
+		<Nom>Chimie generale</Nom>
 		<code>AD32</code>
 		<annee>1</annee>
 	</matiere_uf>
@@ -151,17 +151,17 @@
 		<annee>1</annee>
 	</matiere_uf>
 	<matiere_uf id="Maths">
-		<Nom>Mathématiques</Nom>
+		<Nom>Mathematiques</Nom>
 		<code>M895</code>
 		<annee>1</annee>
 	</matiere_uf>
 	<matiere_uf id="Alge">
-		<Nom>Algèbre</Nom>
+		<Nom>Algebre</Nom>
 		<code>DEV5</code>
 		<annee>2</annee>
 	</matiere_uf>
 	<matiere_uf id="Electromag">
-		<Nom>Electromagnétisme</Nom>
+		<Nom>Electromagnetisme</Nom>
 		<code>ELM48</code>
 		<annee>2</annee>
 	</matiere_uf>
@@ -171,12 +171,12 @@
 		<annee>2</annee>
 	</matiere_uf>
 	<matiere_uf id="Management">
-		<Nom>Aptitudes Managériales</Nom>
+		<Nom>Aptitudes Manageriales</Nom>
 		<code>AM42</code>
 		<annee>2</annee>
 	</matiere_uf>
 	<matiere_uf id="PPI">
-		<Nom>Projet personnel individualisé</Nom>
+		<Nom>Projet personnel individualise</Nom>
 		<code>12CC</code>
 		<annee>2</annee>
 	</matiere_uf>
@@ -201,7 +201,7 @@
 		<annee>2</annee>
 	</matiere_uf>
 	<matiere_uf id="AN">
-		<Nom>Analyse numérique</Nom>
+		<Nom>Analyse numerique</Nom>
 		<code>AN23</code>
 		<annee>3</annee>
 	</matiere_uf>
@@ -211,12 +211,12 @@
 		<annee>3</annee>
 	</matiere_uf>
 	<matiere_uf id="RO">
-		<Nom>Recherche opérationnelle</Nom>
+		<Nom>Recherche operationnelle</Nom>
 		<code>kro33</code>
 		<annee>3</annee>
 	</matiere_uf>
 	<matiere_uf id="BDD">
-		<Nom>Donnée et information</Nom>
+		<Nom>Donnee et information</Nom>
 		<code>ZDD33</code>
 		<annee>3</annee>
 	</matiere_uf>
@@ -226,7 +226,7 @@
 		<annee>3</annee>
 	</matiere_uf>
 	<matiere_uf id="CompMath">
-		<Nom>Complément de Mathématiques</Nom>
+		<Nom>Complement de Mathematiques</Nom>
 		<code>COMMA33</code>
 		<annee>3</annee>
 	</matiere_uf>
@@ -234,18 +234,18 @@
 		<Nom>Topologie</Nom>
 		<code>TSK33</code>
 		<annee>3</annee>
-	</matiere_uf><matiere_uf id="Modé">
-		<Nom>Modélisation</Nom>
+	</matiere_uf><matiere_uf id="Mode">
+		<Nom>Modelisation</Nom>
 		<code>MOD33</code>
 		<annee>3</annee>
 	</matiere_uf>
 	<matiere_uf id="COO">
-		<Nom>Conception orienté objet</Nom>
+		<Nom>Conception oriente objet</Nom>
 		<code>QSDF33</code>
 		<annee>4</annee>
 	</matiere_uf>
 	<matiere_uf id="IS">
-		<Nom>Internet et sécurité</Nom>
+		<Nom>Internet et securite</Nom>
 		<code>JBFH33</code>
 		<annee>4</annee>
 	</matiere_uf>
@@ -254,13 +254,13 @@
 		<code>LDSK78J</code>
 		<annee>4</annee>
 	</matiere_uf>
-	<matiere_uf id="Périph">
-		<Nom>Microcontroleurs et périphérique</Nom>
+	<matiere_uf id="Periph">
+		<Nom>Microcontroleurs et peripherique</Nom>
 		<code>lJSD78</code>
 		<annee>4</annee>
 	</matiere_uf>
-	<matiere_uf id="Rés Mob">
-		<Nom>Réseau mobile et sans fil</Nom>
+	<matiere_uf id="Res Mob">
+		<Nom>Reseau mobile et sans fil</Nom>
 		<code>IOF53</code>
 		<annee>4</annee>
 	</matiere_uf>
@@ -275,7 +275,7 @@
 		<annee>4</annee>
 	</matiere_uf>
 	<matiere_uf id="Proj tuto">
-		<Nom>Projets tutoré et conduite de projet</Nom>
+		<Nom>Projets tutore et conduite de projet</Nom>
 		<code>PRO54</code>
 		<annee>4</annee>
 	</matiere_uf>
@@ -285,7 +285,7 @@
 		<annee>4</annee>
 	</matiere_uf>
 	<matiere_uf id="Interco">
-		<Nom>Interconnexion des réseaux</Nom>
+		<Nom>Interconnexion des reseaux</Nom>
 		<code>JDP792</code>
 		<annee>4</annee>
 	</matiere_uf>
@@ -297,31 +297,31 @@
 	</matiere_uf>
 	</matiere_uf>
 	<matiere_uf id="SE">
-		<Nom>Fiabilité des systemes embarqués</Nom>
+		<Nom>Fiabilite des systemes embarques</Nom>
 		<code>Jf42</code>
 		<annee>5</annee>
 	</matiere_uf>
 	</matiere_uf>
-	<matiere_uf id="Méthode">
-		<Nom>Méthode et outils pour l'analyse fonctionnelle</Nom>
+	<matiere_uf id="Methode">
+		<Nom>Methode et outils pour l'analyse fonctionnelle</Nom>
 		<code>JSD2</code>
 		<annee>5</annee>
 	</matiere_uf>
 	</matiere_uf>
 	<matiere_uf id="IMod">
-		<Nom>Ingénierie des modèles</Nom>
+		<Nom>Ingenierie des modeles</Nom>
 		<code>RD7</code>
 		<annee>5</annee>
 	</matiere_uf>
 	</matiere_uf>
 	<matiere_uf id="Proc Dev">
-		<Nom>Processus de développement logiciel</Nom>
+		<Nom>Processus de developpement logiciel</Nom>
 		<code>PDL45</code>
 		<annee>5</annee>
 	</matiere_uf>
 	</matiere_uf>
 	<matiere_uf id="Services">
-		<Nom>Architectures orienté services</Nom>
+		<Nom>Architectures oriente services</Nom>
 		<code>AOS87</code>
 		<annee>5</annee>
 	</matiere_uf>
@@ -333,7 +333,7 @@
 	</matiere_uf>
 	</matiere_uf>
 	<matiere_uf id="Res emerg">
-		<Nom>Réseau émergent</Nom>
+		<Nom>Reseau emergent</Nom>
 		<code>RE42</code>
 		<annee>5</annee>
 	</matiere_uf>
