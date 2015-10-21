@@ -1,10 +1,10 @@
 ﻿<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="bd_schema.xsd">
 <scolarite>
-	<etudiant id="VC"> 
+	<etudiant id="101"> 
 		<nom>Chatelard</noms>
 		<prenom>Valentin</prenom>
-		<datenaissance>27-10-1994</datenaissance>
+		<datenaissance>27-10-94</datenaissance>
 		<annee>4</annee>
 		<cursus>IR</cursus>
 		<groupe>IA1</groupe>
@@ -17,10 +17,10 @@
 			<matiere id="Maths" note="10"/>
 		</matieres>
 	</etudiant>
-	<etudiant id="MD"> 
+	<etudiant id="102"> 
 		<nom>Matthieu</noms>
 		<prenom>De Sousa</prenom>
-		<datenaissance>09-06-1989</datenaissance>
+		<datenaissance>09-06-89</datenaissance>
 		<annee>4</annee>
 		<cursus>IR</cursus>
 		<groupe>IA1</groupe>
@@ -34,10 +34,10 @@
 			<matiere id="Alge" note="17"/>
 		</matieres>
 	</etudiant>
-	<etudiant id="JS"> 
+	<etudiant id="103"> 
 		<nom>Josue</noms>
 		<prenom>Miguel</prenom>
-		<datenaissance>25-12-1992</datenaissance>
+		<datenaissance>25-12-92</datenaissance>
 		<annee>5</annee>
 		<cursus>GP</cursus>
 		<groupe>IA1</groupe>

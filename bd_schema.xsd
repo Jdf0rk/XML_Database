@@ -1,103 +1,106 @@
 ﻿<?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<xs:simpleType name="grade">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="Enseignant" />
-    <xs:enumeration value="Enseignant-Chercheur" />
-    <xs:enumeration value="Chercheur" />
-  </xs:restriction>
-</xs:simpleType>
+    <xs:simpleType name="grade">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Enseignant" />
+            <xs:enumeration value="Enseignant-Chercheur" />
+            <xs:enumeration value="Chercheur" />
+        </xs:restriction>
+    </xs:simpleType>
 
-<xs:simpleType name="cursus">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="GP" />
-    <xs:enumeration value="IR" />
-    <xs:enumeration value="MIC" />
-    <xs:enumeration value="AE" />
-  </xs:restriction>
-</xs:simpleType>
+    <xs:simpleType name="cursus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="GP" />
+            <xs:enumeration value="IR" />
+            <xs:enumeration value="MIC" />
+            <xs:enumeration value="AE" />
+        </xs:restriction>
+    </xs:simpleType>
 
-<xsd:attribute name="note">
-	<xsd:simpleType>
-		<xs:restriction base="xs:integer">
-			<xs:minInclusive value="0"/>
-			<xs:maxInclusive value="20"/>
-		</xs:restriction>
-	</xsd:simpleType>
-</xsd:attribute>
+    <xs:attribute name="note">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"/>
+                <xs:maxInclusive value="20"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
 
-<xsd:attribute name="annee">
-	<xsd:simpleType>
-		<xs:restriction base="xs:integer">
-			<xs:minInclusive value="1"/>
-			<xs:maxInclusive value="5"/>
-		</xs:restriction>
-	</xsd:simpleType>
-</xsd:attribute>
+    <xs:attribute name="annee">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="1"/>
+                <xs:maxInclusive value="5"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
 
-<xsd:element name ="matiere">
-	<xsd:complexType>
-		<xsd:attribute ref="note" use="required">
-		// TODO : comment dire obligatoire
-		// que si note <10 >
-		// possible ca ? <xsd:attribute name="noteS2" ref="note">
-		// TODO : <xsd:attribute name="id" type="IDREF" use="required">
-	</xsd:complexType>
-</xsd:element>
+    <!--<xs:element name ="matiere">-->
+    <!--<xs:complexType>-->
+    <!--<xs:attribute ref="note" use="required">-->
+    <!--// TODO : comment dire obligatoire-->
+    <!--// que si note <10 >-->
+    <!--// possible ca ? <xs:attribute name="noteS2" ref="note">-->
+    <!--// TODO : <xs:attribute name="id" type="IDREF" use="required">-->
+    <!--</xs:complexType>-->
+    <!--</xs:element>-->
+    <xs:element name="matiere"></xs:element>
 
-<xsd:element name ="matieres">
-	<xsd:complexType>
-		<xsd:sequence>
-			<xsd:element ref="matiere" minOccurs="0" maxOccurs="unbounded"/>
-		</xsd:sequence>
-	</xsd:complexType>
-</xsd:element>
+    <xs:element name ="matieres">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="matiere" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
-<xsd:element name ="scolarite">
-	<xsd:complexType>
-		<xsd:sequence>
-			<xsd:element ref="etudiant" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="enseignant" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="matiere_uf" minOccurs="0" maxOccurs="unbounded"/>
-		</xsd:sequence>
-	</xsd:complexType>
-</xsd:element>
+    <xs:element name ="scolarite">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="etudiant" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="enseignant" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="matiere_uf" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
-<xsd:element name ="etudiant">
-	<xsd:complexType>
-		<xsd:sequence>
-			<xsd:element name="nom" type="xsd:string"/>
-			<xsd:element name="prenom" type="xsd:string"/>
-			<xsd:element name="datenaissance" type="xsd:date"/>
-			<xsd:element name="annee" type="xsd:unsignedByte"/>
-			<xsd:element name="cursus" type="cursus"/>
-			<xsd:element ref="matieres" minOccurs="1" maxOccurs="1"/>
-		</xsd:sequence>
-	</xsd:complexType>
-</xsd:element>
+    <xs:element name ="etudiant">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nom" type="xs:string"/>
+                <xs:element name="prenom" type="xs:string"/>
+                <xs:element name="datenaissance" type="xs:date"/>
+                <xs:element name="annee" type="xs:unsignedByte"/>
+                <xs:element name="cursus" type="cursus"/>
+                <xs:element ref="matieres" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
-<xsd:element name ="enseignant">
-	<xsd:complexType>
-		<xsd:sequence>
-			<xsd:element name="nom" type="xsd:string"/>
-			<xsd:element name="prenom" type="xsd:string"/>
-			<xsd:element name="datenaissance" type="xsd:date"/>
-			<xsd:element name="grade" type="grade"/>
-			<xsd:element ref="matieres" minOccurs="1" maxOccurs="1"/>
-		</xsd:sequence>
-	</xsd:complexType>
-</xsd:element>
+    <xs:element name ="enseignant">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nom" type="xs:string"/>
+                <xs:element name="prenom" type="xs:string"/>
+                <xs:element name="datenaissance" type="xs:date"/>
+                <xs:element name="grade" type="grade"/>
+                <xs:element ref="matieres" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
-<xsd:element name ="matiere_uf">
-	<xsd:complexType>
-		<xsd:sequence>
-			<xsd:element name="nom" type="xsd:string"/>
-			<xsd:element name="code" type="xsd:ID"/>
-			<xsd:element name="annee" type="annee"/>
-			<xsd:attribute name="id" type="ID" use="required">
-		</xsd:sequence>
-	</xsd:complexType>
-</xsd:element>
+    <xs:element name ="matiere_uf">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nom" type="xs:string"/>
+                <xs:element name="code" type="xs:ID"/>
+                <xs:element name="annee" type="annee"/>
+                <xs:element name="id" type="xs:ID"/> <!-- Attribute et use non autorisé ici-->
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
+
+    <xs:complexType name="annee"></xs:complexType>
 </xs:schema>
