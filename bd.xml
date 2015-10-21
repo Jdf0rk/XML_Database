@@ -25,9 +25,9 @@
 		<matieres>
 			<matiere id="Art1" note="10"/>
 			<matiere id="Inf" note="15"/>
-			<matiere id="Ph" note="7"/>
+			<matiere id="Ph" note="7" noteS2="17"/>
 			<matiere id="Cg" note="18"/>
-			<matiere id="Ang" note="9"/>
+			<matiere id="Ang" note="9" noteS2="5"/>
 			<matiere id="Alge" note="17"/>
 		</matieres>
 	</etudiant>
@@ -39,13 +39,13 @@
 		<cursus>GP</cursus>
 		<groupe>IA1</groupe>
 		<matieres>
-			<matiere id="Esp" note="8"/>
+			<matiere id="Esp" note="8" noteS2="15"/>
 			<matiere id="Cg" note="11"/>
 			<matiere id="Mt" note="14"/>
-			<matiere id="Th" note="7"/>
+			<matiere id="Th" note="7" noteS2="10"/>
 			<matiere id="Maths" note="20"/>
 			<matiere id="Sp" note="15"/>
-			<matiere id="Inf" note="7"/>
+			<matiere id="Inf" note="7" noteS2="1"/>
 		</matieres>
 	</etudiant>
 	
