@@ -72,6 +72,7 @@
 			<xsd:element name="datenaissance" type="xsd:date"/>
 			<xsd:element name="annee" type="xsd:unsignedByte"/>
 			<xsd:element name="cursus" type="cursus"/>
+			<xsd:element ref="matieres" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:element>
@@ -83,6 +84,7 @@
 			<xsd:element name="prenom" type="xsd:string"/>
 			<xsd:element name="datenaissance" type="xsd:date"/>
 			<xsd:element name="grade" type="grade"/>
+			<xsd:element ref="matieres" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:element>
