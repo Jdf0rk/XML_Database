@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="grade">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="Enseignant" />
+    <xs:enumeration value="Enseignant-Chercheur" />
+    <xs:enumeration value="Chercheur" />
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="cursus">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="GP" />
+    <xs:enumeration value="IR" />
+    <xs:enumeration value="MIC" />
+    <xs:enumeration value="AE" />
+  </xs:restriction>
+</xs:simpleType>
+
+<xsd:element name ="scolarite">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="etudiant" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="enseignant" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="matiere" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name ="etudiant">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="nom" type="xsd:string"/>
+			<xsd:element name="prenom" type="xsd:string"/>
+			<xsd:element name="datenaissance" type="xsd:date"/>
+			<xsd:element name="annee" type="xsd:unsignedByte"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name ="enseignant">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="expose" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name ="matiere">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="expose" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
+</xs:schema>
