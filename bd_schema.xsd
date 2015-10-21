@@ -18,6 +18,14 @@
   </xs:restriction>
 </xs:simpleType>
 
+<xsd:element name ="matieres">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="matiere" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
 <xsd:element name ="scolarite">
 	<xsd:complexType>
 		<xsd:sequence>
@@ -35,6 +43,7 @@
 			<xsd:element name="prenom" type="xsd:string"/>
 			<xsd:element name="datenaissance" type="xsd:date"/>
 			<xsd:element name="annee" type="xsd:unsignedByte"/>
+			<xsd:element name="cursus" type="cursus"/>
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:element>
@@ -42,7 +51,10 @@
 <xsd:element name ="enseignant">
 	<xsd:complexType>
 		<xsd:sequence>
-			<xsd:element ref="expose" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="nom" type="xsd:string"/>
+			<xsd:element name="prenom" type="xsd:string"/>
+			<xsd:element name="datenaissance" type="xsd:date"/>
+			<xsd:element name="grade" type="grade"/>
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:element>

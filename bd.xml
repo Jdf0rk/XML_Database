@@ -102,59 +102,59 @@
 		</matieres>
 	</enseignant>
 	
-	<matiere id="Art1">
+	<matiere_uf id="Art1">
 		<Nom>Art Moderne</Nom>
 		<code>A1DAC2</code>
 		<annee>3</annee>
-	</matiere>
-	<matiere id="Sp">
+	</matiere_uf>
+	<matiere_uf id="Sp">
 		<Nom>Sport</Nom>
 		<code>SP10</code>
 		<annee>4</annee>
-	</matiere>
-	<matiere id="Inf">
+	</matiere_uf>
+	<matiere_uf id="Inf">
 		<Nom>Informatique fondamentale</Nom>
 		<code>125DC</code>
 		<annee>3</annee>
-	</matiere>
-	<matiere id="Mt">
+	</matiere_uf>
+	<matiere_uf id="Mt">
 		<Nom>Matériaux</Nom>
 		<code>ART</code>
 		<annee>4</annee>
-	</matiere>
-	<matiere id="Ph">
+	</matiere_uf>
+	<matiere_uf id="Ph">
 		<Nom>Philosophie</Nom>
 		<code>56KC</code>
 		<annee>4</annee>
-	</matiere>
-	<matiere id="Cg">
+	</matiere_uf>
+	<matiere_uf id="Cg">
 		<Nom>Chimie générale</Nom>
 		<code>AD32</code>
 		<annee>1</annee>
-	</matiere>
-	<matiere id="Th">
+	</matiere_uf>
+	<matiere_uf id="Th">
 		<Nom>Thermo</Nom>
 		<code>TH33</code>
 		<annee>3</annee>
-	</matiere>
-	<matiere id="Ang">
+	</matiere_uf>
+	<matiere_uf id="Ang">
 		<Nom>Anglais</Nom>
 		<code>9AN</code>
 		<annee>2</annee>
-	</matiere>
-	<matiere id="Esp">
+	</matiere_uf>
+	<matiere_uf id="Esp">
 		<Nom>Espagnol</Nom>
 		<code>6ES6</code>
 		<annee>1</annee>
-	</matiere>
-	<matiere id="Maths">
+	</matiere_uf>
+	<matiere_uf id="Maths">
 		<Nom>Mathématiques</Nom>
 		<code>M895</code>
 		<annee>1</annee>
-	</matiere>
-	<matiere id="Alge">
+	</matiere_uf>
+	<matiere_uf id="Alge">
 		<Nom>Algèbre</Nom>
 		<code>DEV5</code>
 		<annee>2</annee>
-	</matiere>
+	</matiere_uf>
 </scolarite>
