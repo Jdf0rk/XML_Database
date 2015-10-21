@@ -1,0 +1,160 @@
+<scolarite>
+	<etudiant id="VC"> 
+		<nom>Chatelard</noms>
+		<prenom>Valentin</prenom>
+		<datenaissance>27/10/1994</datenaissance>
+		<annee>4</annee>
+		<cursus>IR</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Art1" note="8"/>
+			<matiere id="Inf" note="17"/>
+			<matiere id="Sp" note="13"/>
+			<matiere id="Mt" note="12"/>
+			<matiere id="Esp" note="4"/>
+			<matiere id="Maths" note="10"/>
+		</matieres>
+	</etudiant>
+	<etudiant id="MD"> 
+		<nom>Matthieu</noms>
+		<prenom>De Sousa</prenom>
+		<datenaissance>01/01/1989</datenaissance>
+		<annee>4</annee>
+		<cursus>IR</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Art1" note="10"/>
+			<matiere id="Inf" note="15"/>
+			<matiere id="Ph" note="7"/>
+			<matiere id="Cg" note="18"/>
+			<matiere id="Ang" note="9"/>
+			<matiere id="Alge" note="17"/>
+		</matieres>
+	</etudiant>
+	<etudiant id="JS"> 
+		<nom>Josué</noms>
+		<prenom>Miguel</prenom>
+		<datenaissance>25/12/1992</datenaissance>
+		<annee>5</annee>
+		<cursus>GP</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Esp" note="8"/>
+			<matiere id="Cg" note="11"/>
+			<matiere id="Mt" note="14"/>
+			<matiere id="Th" note="7"/>
+			<matiere id="Maths" note="20"/>
+			<matiere id="Sp" note="15"/>
+			<matiere id="Inf" note="7"/>
+		</matieres>
+	</etudiant>
+	
+	
+	<enseignant id="AR">
+		<nom>Albert</noms>
+		<prenom>Roson</prenom>
+		<datenaissance>7/11/1964</datenaissance>
+		<grade>Enseignant-Chercheur</grade>
+		<matieres>
+			<matiere id="Art1"/>
+			<matiere id="Sp"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="DE">
+		<nom>Delphine</noms>
+		<prenom>Erthe</prenom>
+		<datenaissance>2/5/1986</datenaissance>
+		<grade>Enseignant</grade>
+		<matieres>
+			<matiere id="Inf"/>
+			<matiere id="Mt" />
+		</matieres>
+	</enseignant>
+	<enseignant id="BF">
+		<nom>Baltimore</noms>
+		<prenom>Farot</prenom>
+		<datenaissance>5/5/1959</datenaissance>
+		<grade>Enseignant</grade>
+		<matieres>
+			<matiere id="Th"/>
+			<matiere id="Ang"/>
+			<matiere id="Esp"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="DR">
+		<nom>Daniel</noms>
+		<prenom>Rilant</prenom>
+		<datenaissance>2/12/1984</datenaissance>
+		<grade>Enseignant</grade>
+		<matieres>
+			<matiere id="Maths"/>
+			<matiere id="Alge"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="LM">
+		<nom>Lisa</noms>
+		<prenom>Manta</prenom>
+		<datenaissance>7/4/1968</datenaissance>
+		<grade>Enseignant-Chercheur</grade>
+		<matieres>
+			<matiere id="Ph"/>
+			<matiere id="Cg"/>
+		</matieres>
+	</enseignant>
+	
+	<matiere id="Art1">
+		<Nom>Art Moderne</Nom>
+		<code>A1DAC2</code>
+		<annee>3</annee>
+	</matiere>
+	<matiere id="Sp">
+		<Nom>Sport</Nom>
+		<code>SP10</code>
+		<annee>4</annee>
+	</matiere>
+	<matiere id="Inf">
+		<Nom>Informatique fondamentale</Nom>
+		<code>125DC</code>
+		<annee>3</annee>
+	</matiere>
+	<matiere id="Mt">
+		<Nom>Matériaux</Nom>
+		<code>ART</code>
+		<annee>4</annee>
+	</matiere>
+	<matiere id="Ph">
+		<Nom>Philosophie</Nom>
+		<code>56KC</code>
+		<annee>4</annee>
+	</matiere>
+	<matiere id="Cg">
+		<Nom>Chimie générale</Nom>
+		<code>AD32</code>
+		<annee>1</annee>
+	</matiere>
+	<matiere id="Th">
+		<Nom>Thermo</Nom>
+		<code>TH33</code>
+		<annee>3</annee>
+	</matiere>
+	<matiere id="Ang">
+		<Nom>Anglais</Nom>
+		<code>9AN</code>
+		<annee>2</annee>
+	</matiere>
+	<matiere id="Esp">
+		<Nom>Espagnol</Nom>
+		<code>6ES6</code>
+		<annee>1</annee>
+	</matiere>
+	<matiere id="Maths">
+		<Nom>Mathématiques</Nom>
+		<code>M895</code>
+		<annee>1</annee>
+	</matiere>
+	<matiere id="Alge">
+		<Nom>Algèbre</Nom>
+		<code>DEV5</code>
+		<annee>2</annee>
+	</matiere>
+</scolarite>
