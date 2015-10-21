@@ -27,9 +27,22 @@
 	</xsd:simpleType>
 </xsd:attribute>
 
+<xsd:attribute name="annee">
+	<xsd:simpleType>
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="5"/>
+		</xs:restriction>
+	</xsd:simpleType>
+</xsd:attribute>
+
 <xsd:element name ="matiere">
 	<xsd:complexType>
 		<xsd:attribute ref="note" use="required">
+		// TODO : comment dire obligatoire
+		// que si note <10 >
+		// possible ca ? <xsd:attribute name="noteS2" ref="note">
+		// TODO : <xsd:attribute name="id" type="IDREF" use="required">
 	</xsd:complexType>
 </xsd:element>
 
@@ -46,7 +59,7 @@
 		<xsd:sequence>
 			<xsd:element ref="etudiant" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="enseignant" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="matiere" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="matiere_uf" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:element>
@@ -77,7 +90,10 @@
 <xsd:element name ="matiere_uf">
 	<xsd:complexType>
 		<xsd:sequence>
-			
+			<xsd:element name="nom" type="xsd:string"/>
+			<xsd:element name="code" type="xsd:ID"/>
+			<xsd:element name="annee" type="annee"/>
+			<xsd:attribute name="id" type="ID" use="required">
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:element>

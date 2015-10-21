@@ -1,3 +1,5 @@
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="bd_schema.xsd">
 <scolarite>
 	<etudiant id="VC"> 
 		<nom>Chatelard</noms>
