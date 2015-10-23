@@ -96,8 +96,8 @@
                 <xs:element name="nom" type="xs:string"/>
                 <xs:element name="code" type="xs:ID"/>
                 <xs:element name="annee" type="annee"/>
-                <xs:element name="id" type="xs:ID"/> <!-- Attribute et use non autorisé ici-->
             </xs:sequence>
+            <xs:attribute name="id" type "ID" use=required/>
         </xs:complexType>
     </xs:element>
 
