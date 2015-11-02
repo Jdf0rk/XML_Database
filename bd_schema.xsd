@@ -35,19 +35,10 @@
             </xs:restriction>
         </xs:simpleType>
     </xs:attribute>
-
-    <!--<xs:element name ="matiere">-->
-    <!--<xs:complexType>-->
-    <!--<xs:attribute ref="note" use="required">-->
-    <!--// TODO : comment dire obligatoire-->
-    <!--// que si note <10 >-->
-    <!--// possible ca ? <xs:attribute name="noteS2" ref="note">-->
-    <!--// TODO : <xs:attribute name="id" type="IDREF" use="required">-->
-    <!--</xs:complexType>-->
-    <!--</xs:element>-->
+  
     <xs:element name="matiere">
       <xs:complexType>
-        <xs:attribute name="id" type="xs:IDREF" use="required"/> <!-- vérifier que IDREF vers ID d'une matière-->
+        <xs:attribute name="id" type="xs:IDREF" use="required"/> <!--on vérifie que la mtière existe (ID) -->
       </xs:complexType>
     </xs:element>
 
@@ -69,6 +60,15 @@
         </xs:complexType>
     </xs:element>
 
+  <xs:element name ="notes">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Choice between s1 matiere note
+        s2 matiere note noteS2 -->
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+    
     <xs:element name ="etudiant">
         <xs:complexType>
             <xs:sequence>
@@ -79,6 +79,7 @@
                 <xs:element name="cursus" type="cursus"/>
                 <xs:element name="groupe" type="xs:string"/>
                 <xs:element ref="matieres" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="notes" minOccurs="1" maxOccurs="1"/>
             </xs:sequence>
             <xs:attribute name="id" type="xs:ID" use="required"/>
         </xs:complexType>
