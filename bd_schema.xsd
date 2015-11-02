@@ -45,7 +45,11 @@
     <!--// TODO : <xs:attribute name="id" type="IDREF" use="required">-->
     <!--</xs:complexType>-->
     <!--</xs:element>-->
-    <xs:element name="matiere"></xs:element>
+    <xs:element name="matiere">
+      <xs:complexType>
+        <xs:attribute name="id" type="xs:IDREF" use="required"/> <!-- vérifier que IDREF vers ID d'une matière-->
+      </xs:complexType>
+    </xs:element>
 
     <xs:element name ="matieres">
         <xs:complexType>
@@ -73,8 +77,10 @@
                 <xs:element name="datenaissance" type="xs:date"/>
                 <xs:element name="annee" type="xs:unsignedByte"/>
                 <xs:element name="cursus" type="cursus"/>
+                <xs:element name="groupe" type="xs:string"/>
                 <xs:element ref="matieres" minOccurs="1" maxOccurs="1"/>
             </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
         </xs:complexType>
     </xs:element>
 
@@ -87,6 +93,7 @@
                 <xs:element name="grade" type="grade"/>
                 <xs:element ref="matieres" minOccurs="1" maxOccurs="1"/>
             </xs:sequence>
+          <xs:attribute name="id" type="xs:ID" use="required"/>
         </xs:complexType>
     </xs:element>
 
@@ -97,10 +104,15 @@
                 <xs:element name="code" type="xs:ID"/>
                 <xs:element name="annee" type="annee"/>
             </xs:sequence>
-            <xs:attribute name="id" type "ID" use=required/>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
         </xs:complexType>
     </xs:element>
 
 
-    <xs:complexType name="annee"></xs:complexType>
+  <xs:simpleType name="annee">
+        <xs:restriction base="xs:integer">
+          <xs:minInclusive value="0"/>
+          <xs:maxInclusive value="2016"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
