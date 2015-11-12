@@ -1,119 +1,148 @@
 ﻿<?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-    <xs:simpleType name="grade">
-        <xs:restriction base="xs:string">
-            <xs:enumeration value="Enseignant" />
-            <xs:enumeration value="Enseignant-Chercheur" />
-            <xs:enumeration value="Chercheur" />
-        </xs:restriction>
-    </xs:simpleType>
-
-    <xs:simpleType name="cursus">
-        <xs:restriction base="xs:string">
-            <xs:enumeration value="GP" />
-            <xs:enumeration value="IR" />
-            <xs:enumeration value="MIC" />
-            <xs:enumeration value="AE" />
-        </xs:restriction>
-    </xs:simpleType>
-
-    <xs:attribute name="note">
-        <xs:simpleType>
-            <xs:restriction base="xs:integer">
-                <xs:minInclusive value="0"/>
-                <xs:maxInclusive value="20"/>
-            </xs:restriction>
-        </xs:simpleType>
-    </xs:attribute>
-
-    <xs:attribute name="annee">
-        <xs:simpleType>
-            <xs:restriction base="xs:integer">
-                <xs:minInclusive value="1"/>
-                <xs:maxInclusive value="5"/>
-            </xs:restriction>
-        </xs:simpleType>
-    </xs:attribute>
   
-    <xs:element name="matiere">
-      <xs:complexType>
-        <xs:attribute name="id" type="xs:IDREF" use="required"/> <!--on vérifie que la mtière existe (ID) -->
-      </xs:complexType>
-    </xs:element>
-
-    <xs:element name ="matieres">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="matiere" minOccurs="0" maxOccurs="unbounded"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name ="scolarite">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="etudiant" minOccurs="0" maxOccurs="unbounded"/>
-                <xs:element ref="enseignant" minOccurs="0" maxOccurs="unbounded"/>
-                <xs:element ref="matiere_uf" minOccurs="0" maxOccurs="unbounded"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-  <xs:element name ="notes">
+  <xs:simpleType name="annee">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="2016"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:element name ="matiere_uf">
     <xs:complexType>
       <xs:sequence>
-        <!-- Choice between s1 matiere note
-        s2 matiere note noteS2 -->
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="code" type="xs:ID"/>
+        <xs:element name="annee" type="annee"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:simpleType name="grade">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Enseignant" />
+      <xs:enumeration value="Enseignant-Chercheur" />
+      <xs:enumeration value="Chercheur" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="cursus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="GP" />
+      <xs:enumeration value="IR" />
+      <xs:enumeration value="MIC" />
+      <xs:enumeration value="AE" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="note">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="note_pos">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="10"/>
+      <xs:maxInclusive value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:attribute name="note">
+    <xs:simpleType>
+      <xs:restriction base="xs:integer">
+        <xs:minInclusive value="0"/>
+        <xs:maxInclusive value="20"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:element name="matiere">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:IDREF" use="required"/>
+    </xs:complexType>
+    <!-- 
+    <xs:key name="tableKey">
+      <xs:selector xpath="table" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    -->
+  </xs:element>
+
+  <xs:element name="matiere_noteS1">
+    <xs:complexType>
+      <xs:attribute name="id_matiere" type="xs:IDREF" use="required"/>
+      <xs:attribute name="noteS1" type="note_pos" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="matiere_noteS2">
+    <xs:complexType>
+      <xs:attribute name="id_matiere" type="xs:IDREF" use="required"/>
+      <xs:attribute name="noteS1" type="note" use="required"/>
+      <!-- note S1 -->
+      <xs:attribute name="noteS2" type="note" use="required"/>
+      <!-- note S2 -->
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name ="matieres">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="matiere" minOccurs="0" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-    
-    <xs:element name ="etudiant">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="nom" type="xs:string"/>
-                <xs:element name="prenom" type="xs:string"/>
-                <xs:element name="datenaissance" type="xs:date"/>
-                <xs:element name="annee" type="xs:unsignedByte"/>
-                <xs:element name="cursus" type="cursus"/>
-                <xs:element name="groupe" type="xs:string"/>
-                <xs:element ref="matieres" minOccurs="1" maxOccurs="1"/>
-                <xs:element ref="notes" minOccurs="1" maxOccurs="1"/>
-            </xs:sequence>
-            <xs:attribute name="id" type="xs:ID" use="required"/>
-        </xs:complexType>
-    </xs:element>
 
-    <xs:element name ="enseignant">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="nom" type="xs:string"/>
-                <xs:element name="prenom" type="xs:string"/>
-                <xs:element name="datenaissance" type="xs:date"/>
-                <xs:element name="grade" type="grade"/>
-                <xs:element ref="matieres" minOccurs="1" maxOccurs="1"/>
-            </xs:sequence>
-          <xs:attribute name="id" type="xs:ID" use="required"/>
-        </xs:complexType>
-    </xs:element>
+  <xs:element name ="scolarite">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="etudiant" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="enseignant" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="matiere_uf" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 
-    <xs:element name ="matiere_uf">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="nom" type="xs:string"/>
-                <xs:element name="code" type="xs:ID"/>
-                <xs:element name="annee" type="annee"/>
-            </xs:sequence>
-            <xs:attribute name="id" type="xs:ID" use="required"/>
-        </xs:complexType>
-    </xs:element>
+  <xs:element name ="notes">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:choice>
+          <xs:element ref="matiere_noteS1"/>
+          <xs:element ref="matiere_noteS2"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 
+  <xs:element name ="etudiant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="prenom" type="xs:string"/>
+        <xs:element name="datenaissance" type="xs:date"/>
+        <xs:element name="annee" type="xs:unsignedByte"/>
+        <xs:element name="cursus" type="cursus"/>
+        <xs:element name="groupe" type="xs:string"/>
+        <xs:element ref="matieres" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="notes" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+  </xs:element>
 
-  <xs:simpleType name="annee">
-        <xs:restriction base="xs:integer">
-          <xs:minInclusive value="0"/>
-          <xs:maxInclusive value="2016"/>
-        </xs:restriction>
-    </xs:simpleType>
+  <xs:element name ="enseignant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="prenom" type="xs:string"/>
+        <xs:element name="datenaissance" type="xs:date"/>
+        <xs:element name="grade" type="grade"/>
+        <xs:element ref="matieres" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
 </xs:schema>

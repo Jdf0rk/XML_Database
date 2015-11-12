@@ -1,6 +1,6 @@
 ﻿<scolarite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="bd_schema.xsd">
-	<etudiant id="A101"> 
+  <etudiant id="A101"> 
 		<nom>Chatelard</nom>
 		<prenom>Valentin</prenom>
 		<datenaissance>1994-10-27</datenaissance>
@@ -16,6 +16,7 @@
 			<matiere id="Maths"/>
 		</matieres>
     <notes>
+      <matiere_noteS2 id_matiere="Ph" noteS1="5" noteS2="19"/> <!-- <key and keyref> -->
     </notes>
 	</etudiant>
 	<etudiant id="A102"> 
@@ -35,6 +36,9 @@
 			<matiere id="Alge"/>
 		</matieres>
     <notes>
+      <matiere_noteS1 id_matiere="Ph" noteS1="11"/>
+      <matiere_noteS2 id_matiere="Sp" noteS1="5" noteS2="19"/>
+      <matiere_noteS1 id_matiere="Ang" noteS1="15"/>
     </notes>
 	</etudiant>
 	<etudiant id="A103"> 
@@ -54,6 +58,7 @@
 			<matiere id="Inf"/>
     </matieres>
     <notes>
+      <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
     </notes>
 	</etudiant>
 	
@@ -109,229 +114,230 @@
 			<matiere id="Cg"/>
 		</matieres>
 	</enseignant>
-	
-	<matiere_uf id="Art1">
-		<nom>Art Moderne</nom>
-		<code>A1DAC2</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="Sp">
-		<nom>Sport</nom>
-		<code>SP10</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Inf">
-		<nom>Informatique fondamentale</nom>
-		<code>A125DC</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="Mt">
-		<nom>Materiaux</nom>
-		<code>ART</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Ph">
-		<nom>Philosophie</nom>
-		<code>A56KC</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Cg">
-		<nom>Chimie generale</nom>
-		<code>AD32</code>
-		<annee>1</annee>
-	</matiere_uf>
-	<matiere_uf id="Th">
-		<nom>Thermo</nom>
-		<code>TH33</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="Ang">
-		<nom>Anglais</nom>
-		<code>A9AN</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="Esp">
-		<nom>Espagnol</nom>
-		<code>A6ES6</code>
-		<annee>1</annee>
-	</matiere_uf>
-	<matiere_uf id="Maths">
-		<nom>Mathematiques</nom>
-		<code>M895</code>
-		<annee>1</annee>
-	</matiere_uf>
-	<matiere_uf id="Alge">
-		<nom>Algebre</nom>
-		<code>DEV5</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="Electromag">
-		<nom>Electromagnetisme</nom>
-		<code>ELM48</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="SYSEC">
-		<nom>Systemes electroniques et communicants</nom>
-		<code>SEC5</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="Management">
-		<nom>Aptitudes Manageriales</nom>
-		<code>AM42</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="PPI">
-		<nom>Projet personnel individualise</nom>
-		<code>A12CC</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="Algo">
-		<nom>Algorithmique</nom>
-		<code>A12MIF</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="Stat">
-		<nom>Statistique</nom>
-		<code>MIMT31</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="Auto">
-		<nom>Automatisme</nom>
-		<code>A12MIAU</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="Entre">
-		<nom>Connaissances de l'entreprise</nom>
-		<code>CGE31</code>
-		<annee>2</annee>
-	</matiere_uf>
-	<matiere_uf id="AN">
-		<nom>Analyse numerique</nom>
-		<code>AN23</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="SysEx">
-		<nom>Systeme d'exploitation</nom>
-		<code>SYSEX33</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="RO">
-		<nom>Recherche operationnelle</nom>
-		<code>kro33</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="BDD">
-		<nom>Donnee et information</nom>
-		<code>ZDD33</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="TRE">
-		<nom>Technique de recherche d'emploi</nom>
-		<code>TRERE33</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="CompMath">
-		<nom>Complement de Mathematiques</nom>
-		<code>COMMA33</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="topo">
-		<nom>Topologie</nom>
-		<code>TSK33</code>
-		<annee>3</annee>
-	</matiere_uf><matiere_uf id="Mode">
-		<nom>Modelisation</nom>
-		<code>MOD33</code>
-		<annee>3</annee>
-	</matiere_uf>
-	<matiere_uf id="COO">
-		<nom>Conception oriente objet</nom>
-		<code>QSDF33</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="IS">
-		<nom>Internet et securite</nom>
-		<code>JBFH33</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Gestion">
-		<nom>SIMGEST</nom>
-		<code>LDSK78J</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Periph">
-		<nom>Microcontroleurs et peripherique</nom>
-		<code>lJSD78</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="ResMob">
-		<nom>Reseau mobile et sans fil</nom>
-		<code>IOF53</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Transmi">
-		<nom>Techniques et systemes de transmission</nom>
-		<code>MKDS478</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Realtime">
-		<nom>Systeme conccurents et Temps reel</nom>
-		<code>RTR11</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Projtuto">
-		<nom>Projets tutore et conduite de projet</nom>
-		<code>PRO54</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="IA">
-		<nom>Systemes intelligents</nom>
-		<code>SOP64</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Interco">
-		<nom>Interconnexion des reseaux</nom>
-		<code>JDP792</code>
-		<annee>4</annee>
-	</matiere_uf>
-	<matiere_uf id="Paradigm">
-		<nom>Paradigme de programmation</nom>
-		<code>DLP48</code>
-		<annee>5</annee>
-	</matiere_uf>
-	<matiere_uf id="SE">
-		<nom>Fiabilite des systemes embarques</nom>
-		<code>Jf42</code>
-		<annee>5</annee>
-	</matiere_uf>
-	<matiere_uf id="Methode">
-		<nom>Methode et outils pour l'analyse fonctionnelle</nom>
-		<code>JSD2</code>
-		<annee>5</annee>
-	</matiere_uf>
-	<matiere_uf id="IMod">
-		<nom>Ingenierie des modeles</nom>
-		<code>RD7</code>
-		<annee>5</annee>
-	</matiere_uf>
-	<matiere_uf id="ProcDev">
-		<nom>Processus de developpement logiciel</nom>
-		<code>PDL45</code>
-		<annee>5</annee>
-	</matiere_uf>
-	<matiere_uf id="Services">
-		<nom>Architectures oriente services</nom>
-		<code>AOS87</code>
-		<annee>5</annee>
-	</matiere_uf>
-	<matiere_uf id="ProgCont">
-		<nom>Programmation par contrainte</nom>
-		<code>PPC94</code>
-		<annee>5</annee>
-	</matiere_uf>
-	<matiere_uf id="Resemerg">
-		<nom>Reseau emergent</nom>
-		<code>RE42</code>
-		<annee>5</annee>
-	</matiere_uf>
+
+<matiere_uf id="Art1">
+    <nom>Art Moderne</nom>
+    <code>A1DAC2</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="Sp">
+    <nom>Sport</nom>
+    <code>SP10</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Inf">
+    <nom>Informatique fondamentale</nom>
+    <code>A125DC</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="Mt">
+    <nom>Materiaux</nom>
+    <code>ART</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Ph">
+    <nom>Philosophie</nom>
+    <code>A56KC</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Cg">
+    <nom>Chimie generale</nom>
+    <code>AD32</code>
+    <annee>1</annee>
+  </matiere_uf>
+  <matiere_uf id="Th">
+    <nom>Thermo</nom>
+    <code>TH33</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="Ang">
+    <nom>Anglais</nom>
+    <code>A9AN</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="Esp">
+    <nom>Espagnol</nom>
+    <code>A6ES6</code>
+    <annee>1</annee>
+  </matiere_uf>
+  <matiere_uf id="Maths">
+    <nom>Mathematiques</nom>
+    <code>M895</code>
+    <annee>1</annee>
+  </matiere_uf>
+  <matiere_uf id="Alge">
+    <nom>Algebre</nom>
+    <code>DEV5</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="Electromag">
+    <nom>Electromagnetisme</nom>
+    <code>ELM48</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="SYSEC">
+    <nom>Systemes electroniques et communicants</nom>
+    <code>SEC5</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="Management">
+    <nom>Aptitudes Manageriales</nom>
+    <code>AM42</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="PPI">
+    <nom>Projet personnel individualise</nom>
+    <code>A12CC</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="Algo">
+    <nom>Algorithmique</nom>
+    <code>A12MIF</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="Stat">
+    <nom>Statistique</nom>
+    <code>MIMT31</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="Auto">
+    <nom>Automatisme</nom>
+    <code>A12MIAU</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="Entre">
+    <nom>Connaissances de l'entreprise</nom>
+    <code>CGE31</code>
+    <annee>2</annee>
+  </matiere_uf>
+  <matiere_uf id="AN">
+    <nom>Analyse numerique</nom>
+    <code>AN23</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="SysEx">
+    <nom>Systeme d'exploitation</nom>
+    <code>SYSEX33</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="RO">
+    <nom>Recherche operationnelle</nom>
+    <code>kro33</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="BDD">
+    <nom>Donnee et information</nom>
+    <code>ZDD33</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="TRE">
+    <nom>Technique de recherche d'emploi</nom>
+    <code>TRERE33</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="CompMath">
+    <nom>Complement de Mathematiques</nom>
+    <code>COMMA33</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="topo">
+    <nom>Topologie</nom>
+    <code>TSK33</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="Mode">
+    <nom>Modelisation</nom>
+    <code>MOD33</code>
+    <annee>3</annee>
+  </matiere_uf>
+  <matiere_uf id="COO">
+    <nom>Conception oriente objet</nom>
+    <code>QSDF33</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="IS">
+    <nom>Internet et securite</nom>
+    <code>JBFH33</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Gestion">
+    <nom>SIMGEST</nom>
+    <code>LDSK78J</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Periph">
+    <nom>Microcontroleurs et peripherique</nom>
+    <code>lJSD78</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="ResMob">
+    <nom>Reseau mobile et sans fil</nom>
+    <code>IOF53</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Transmi">
+    <nom>Techniques et systemes de transmission</nom>
+    <code>MKDS478</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Realtime">
+    <nom>Systeme conccurents et Temps reel</nom>
+    <code>RTR11</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Projtuto">
+    <nom>Projets tutore et conduite de projet</nom>
+    <code>PRO54</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="IA">
+    <nom>Systemes intelligents</nom>
+    <code>SOP64</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Interco">
+    <nom>Interconnexion des reseaux</nom>
+    <code>JDP792</code>
+    <annee>4</annee>
+  </matiere_uf>
+  <matiere_uf id="Paradigm">
+    <nom>Paradigme de programmation</nom>
+    <code>DLP48</code>
+    <annee>5</annee>
+  </matiere_uf>
+  <matiere_uf id="SE">
+    <nom>Fiabilite des systemes embarques</nom>
+    <code>Jf42</code>
+    <annee>5</annee>
+  </matiere_uf>
+  <matiere_uf id="Methode">
+    <nom>Methode et outils pour l'analyse fonctionnelle</nom>
+    <code>JSD2</code>
+    <annee>5</annee>
+  </matiere_uf>
+  <matiere_uf id="IMod">
+    <nom>Ingenierie des modeles</nom>
+    <code>RD7</code>
+    <annee>5</annee>
+  </matiere_uf>
+  <matiere_uf id="ProcDev">
+    <nom>Processus de developpement logiciel</nom>
+    <code>PDL45</code>
+    <annee>5</annee>
+  </matiere_uf>
+  <matiere_uf id="Services">
+    <nom>Architectures oriente services</nom>
+    <code>AOS87</code>
+    <annee>5</annee>
+  </matiere_uf>
+  <matiere_uf id="ProgCont">
+    <nom>Programmation par contrainte</nom>
+    <code>PPC94</code>
+    <annee>5</annee>
+  </matiere_uf>
+  <matiere_uf id="Resemerg">
+    <nom>Reseau emergent</nom>
+    <code>RE42</code>
+    <annee>5</annee>
+  </matiere_uf>
 </scolarite>
