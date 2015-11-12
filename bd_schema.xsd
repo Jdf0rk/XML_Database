@@ -43,12 +43,20 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:simpleType name="note_pos">
+  <xs:simpleType name="note_moy">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="10"/>
       <xs:maxInclusive value="20"/>
     </xs:restriction>
   </xs:simpleType>
+
+  <xs:simpleType name="note_pas_moy">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="10"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
   <xs:attribute name="note">
     <xs:simpleType>
       <xs:restriction base="xs:integer">
@@ -61,26 +69,28 @@
   <xs:element name="matiere">
     <xs:complexType>
       <xs:attribute name="id" type="xs:IDREF" use="required"/>
-    </xs:complexType>
-    <!-- 
-    <xs:key name="tableKey">
-      <xs:selector xpath="table" />
-      <xs:field xpath="@name" />
+    </xs:complexType> 
+    <xs:key name="matiereKey">
+      <xs:selector xpath="matiere" />
+      <xs:field xpath="@id" />
     </xs:key>
-    -->
+    <xs:keyref name="matRef" refer="matiereKey">
+      <xs:selector xpath="matiere" />
+      <xs:field xpath="@id_matiere" />
+    </xs:keyref>
   </xs:element>
 
   <xs:element name="matiere_noteS1">
     <xs:complexType>
       <xs:attribute name="id_matiere" type="xs:IDREF" use="required"/>
-      <xs:attribute name="noteS1" type="note_pos" use="required"/>
+      <xs:attribute name="noteS1" type="note_moy" use="required"/>
     </xs:complexType>
   </xs:element>
 
   <xs:element name="matiere_noteS2">
     <xs:complexType>
       <xs:attribute name="id_matiere" type="xs:IDREF" use="required"/>
-      <xs:attribute name="noteS1" type="note" use="required"/>
+      <xs:attribute name="noteS1" type="note_pas_moy" use="required"/>
       <!-- note S1 -->
       <xs:attribute name="noteS2" type="note" use="required"/>
       <!-- note S2 -->
