@@ -14,6 +14,7 @@
         <xs:element name="nom" type="xs:string"/>
         <xs:element name="code" type="xs:ID"/>
         <xs:element name="annee" type="annee"/>
+		<xs:element name="cursus" type="cursus"/>
       </xs:sequence>
       <xs:attribute name="id" type="xs:ID" use="required"/>
     </xs:complexType>
@@ -33,6 +34,8 @@
       <xs:enumeration value="IR" />
       <xs:enumeration value="MIC" />
       <xs:enumeration value="AE" />
+      <xs:enumeration value="IMACS" />
+      <xs:enumeration value="GMM" />
     </xs:restriction>
   </xs:simpleType>
 
