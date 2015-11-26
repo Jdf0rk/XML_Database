@@ -57,6 +57,210 @@
     </notes>
 	</etudiant>
 	
+  
+    
+    
+	<etudiant id="A103"> 
+		<nom>Josue</nom>
+		<prenom>Miguel</prenom>
+		<datenaissance>1992-12-25</datenaissance>
+		<annee>5</annee>
+		<cursus>GP</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Esp"/>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Sp"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+    </notes>
+	</etudiant>  
+	<etudiant id="A104"> 
+		<nom>Bates</nom>
+		<prenom>Gill</prenom>
+		<datenaissance>1962-10-12</datenaissance>
+		<annee>5</annee>
+		<cursus>MIC</cursus>
+		<groupe>M1</groupe>
+		<matieres>
+			<matiere id="PPI"/>
+			<matiere id="Algo"/>
+			<matiere id="Periph"/>
+			<matiere id="ProgCont"/>
+    </matieres>
+    <notes>
+    </notes>
+	</etudiant>  
+	<etudiant id="A105"> 
+		<nom>Sartre</nom>
+		<prenom>Jean Paul</prenom>
+		<datenaissance>1922-1-1</datenaissance>
+		<annee>2</annee>
+		<cursus>AE</cursus>
+		<groupe>A1</groupe>
+		<matieres>
+			<matiere id="Stat"/>
+			<matiere id="CompMath"/>
+			<matiere id="Mode"/>
+			<matiere id="Paradigm"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Stat" noteS1="10"/>
+      <matiere_noteS1 id_matiere="Mode" noteS1="19"/>
+    </notes>
+	</etudiant>  
+	<etudiant id="A106"> 
+		<nom>Arthour</nom>
+		<prenom>Couillerre</prenom>
+		<datenaissance>1993-2-27</datenaissance>
+		<annee>4</annee>
+		<cursus>GP</cursus>
+		<groupe>GP2</groupe>
+		<matieres>
+			<matiere id="Esp"/>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Entre"/>
+      <matiere id="TRE"/>
+      <matiere id="Projtuto"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Projtuto" noteS1="15"/>
+      <matiere_noteS1 id_matiere="Th" noteS1="11"/>
+    </notes>
+	</etudiant>  
+  <!-- Continue from here -->
+	<etudiant id="A107"> 
+		<nom>Josue</nom>
+		<prenom>Miguel</prenom>
+		<datenaissance>1992-12-25</datenaissance>
+		<annee>5</annee>
+		<cursus>GP</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Esp"/>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Sp"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+    </notes>
+	</etudiant>  
+	<etudiant id="A108"> 
+		<nom>Josue</nom>
+		<prenom>Miguel</prenom>
+		<datenaissance>1992-12-25</datenaissance>
+		<annee>5</annee>
+		<cursus>GP</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Esp"/>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Sp"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+    </notes>
+	</etudiant>  
+	<etudiant id="A109"> 
+		<nom>Josue</nom>
+		<prenom>Miguel</prenom>
+		<datenaissance>1992-12-25</datenaissance>
+		<annee>5</annee>
+		<cursus>GP</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Esp"/>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Sp"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+    </notes>
+	</etudiant>  
+	<etudiant id="A110"> 
+		<nom>Josue</nom>
+		<prenom>Miguel</prenom>
+		<datenaissance>1992-12-25</datenaissance>
+		<annee>5</annee>
+		<cursus>GP</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Esp"/>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Sp"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+    </notes>
+	</etudiant>  
+	<etudiant id="A111"> 
+		<nom>Josue</nom>
+		<prenom>Miguel</prenom>
+		<datenaissance>1992-12-25</datenaissance>
+		<annee>5</annee>
+		<cursus>GP</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Esp"/>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Sp"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+    </notes>
+	</etudiant>  
+	<etudiant id="A112"> 
+		<nom>Josue</nom>
+		<prenom>Miguel</prenom>
+		<datenaissance>1992-12-25</datenaissance>
+		<annee>5</annee>
+		<cursus>GP</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Esp"/>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Sp"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+    </notes>
+	</etudiant>  
+	<etudiant id="A113"> 
+		<nom>Josue</nom>
+		<prenom>Miguel</prenom>
+		<datenaissance>1992-12-25</datenaissance>
+		<annee>5</annee>
+		<cursus>GP</cursus>
+		<groupe>IA1</groupe>
+		<matieres>
+			<matiere id="Esp"/>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Sp"/>
+    </matieres>
+    <notes>
+      <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+    </notes>
+	</etudiant>
+  
+  
+  
+    
+    
+    
+    
+    
+      
+  
 	
 	<enseignant id="AR">
 		<nom>Albert</nom>
