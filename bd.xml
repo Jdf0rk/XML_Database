@@ -1,4 +1,5 @@
-﻿<scolarite>
+﻿ <scolarite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="bd_schema.xsd">
   <etudiant id="A101"> 
 		<nom>Chatelard</nom>
 		<prenom>Valentin</prenom>
@@ -64,11 +65,11 @@
 		  <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
 		</notes>
 	</etudiant>
-	<etudiant id="A103"> 
-		<nom>Josue</nom>
-		<prenom>Miguel</prenom>
-		<datenaissance>1992-12-25</datenaissance>
-		<annee>5</annee>
+	<etudiant id="A104"> 
+		<nom>Pierre</nom>
+		<prenom>Paul</prenom>
+		<datenaissance>1992-11-25</datenaissance>
+		<annee>2</annee>
 		<cursus>GP</cursus>
 		<groupe>G1</groupe>
 		<matieres>
@@ -78,13 +79,10 @@
 			<matiere id="Sp"/>
 		</matieres>
 		<notes>
-		  <matiere_noteS2 id_matiere="Cg" noteS1="8" noteS2="11"/>
-		  <matiere_noteS2 id_matiere="Th" noteS1="1" noteS2="9"/>
-		  <matiere_noteS1 id_matiere="Sp" noteS1="10"/>
-		  <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+		  <matiere_noteS2 id_matiere="Cg" noteS1="1" noteS2="10"/>
 		</notes>
 	</etudiant>  
-	<etudiant id="A104"> 
+	<etudiant id="A105"> 
 		<nom>Bates</nom>
 		<prenom>Gill</prenom>
 		<datenaissance>1962-10-12</datenaissance>
@@ -104,10 +102,10 @@
 		  <matiere_noteS1 id_matiere="ProgCont" noteS1="17"/>
 		</notes>
 	</etudiant>  
-	<etudiant id="A105"> 
+	<etudiant id="A109"> 
 		<nom>Sartre</nom>
 		<prenom>Jean Paul</prenom>
-		<datenaissance>1922-1-1</datenaissance>
+		<datenaissance>1962-11-10</datenaissance>
 		<annee>2</annee>
 		<cursus>AE</cursus>
 		<groupe>A1</groupe>
@@ -127,7 +125,7 @@
 	<etudiant id="A106"> 
 		<nom>Arthour</nom>
 		<prenom>Couillerre</prenom>
-		<datenaissance>1993-2-27</datenaissance>
+		<datenaissance>1993-11-27</datenaissance>
 		<annee>4</annee>
 		<cursus>GP</cursus>
 		<groupe>G2</groupe>
@@ -151,7 +149,7 @@
 	<etudiant id="A107"> 
 		<nom>Frère</nom>
 		<prenom>Jacques</prenom>
-		<datenaissance>1987-9-14</datenaissance>
+		<datenaissance>1987-11-14</datenaissance>
 		<annee>2</annee>
 		<cursus>IR</cursus>
 		<groupe>IA2</groupe>
@@ -172,7 +170,7 @@
 	<etudiant id="A108"> 
 		<nom>Jobs</nom>
 		<prenom>Steve</prenom>
-		<datenaissance>1952-10-27</datenaissance>
+		<datenaissance>1952-11-27</datenaissance>
 		<annee>4</annee>
 		<cursus>MIC</cursus>
 		<groupe>M1</groupe>
@@ -190,10 +188,10 @@
 		<matiere_noteS1 id_matiere="ProgCont" noteS1="10"/>
     </notes>
 	</etudiant>  
-	<etudiant id="A109"> 
+	<etudiant id="A114"> 
 		<nom>Toto</nom>
 		<prenom>Le Bateau</prenom>
-		<datenaissance>1999-2-25</datenaissance>
+		<datenaissance>1965-11-25</datenaissance>
 		<annee>1</annee>
 		<cursus>IMACS</cursus>
 		<groupe>I2</groupe>
@@ -214,7 +212,7 @@
 	<etudiant id="A110"> 
 		<nom>Debarnot</nom>
 		<prenom>Valentin</prenom>
-		<datenaissance>1972-10-20</datenaissance>
+		<datenaissance>1972-11-20</datenaissance>
 		<annee>5</annee>
 		<cursus>GMM</cursus>
 		<groupe>GM1</groupe>
@@ -260,7 +258,7 @@
 	<etudiant id="A112"> 
 		<nom>Frère</nom>
 		<prenom>Jacques</prenom>
-		<datenaissance>1995-5-13</datenaissance>
+		<datenaissance>1995-11-13</datenaissance>
 		<annee>2</annee>
 		<cursus>GP</cursus>
 		<groupe>G2</groupe>
@@ -299,6 +297,8 @@
 		<matiere_noteS1 id_matiere="ProgCont" noteS1="14"/>
     </notes>
 	</etudiant>
+	
+	
 	<enseignant id="AR">
 		<nom>Albert</nom>
 		<prenom>Roson</prenom>
@@ -307,6 +307,10 @@
 		<matieres>
 			<matiere id="Art1"/>
 			<matiere id="Sp"/>
+			<matiere id="Inf"/>
+			<matiere id="Mt"/>
+			<matiere id="Th"/>
+			<matiere id="Ang"/>
 		</matieres>
 	</enseignant>
 	<enseignant id="DE">
@@ -316,6 +320,8 @@
 		<grade>Enseignant</grade>
 		<matieres>
 			<matiere id="Inf"/>
+			<matiere id="Esp"/>
+			<matiere id="Maths"/>
 			<matiere id="Mt" />
 		</matieres>
 	</enseignant>
@@ -325,9 +331,11 @@
 		<datenaissance>1959-05-05</datenaissance>
 		<grade>Enseignant</grade>
 		<matieres>
-			<matiere id="Th"/>
-			<matiere id="Ang"/>
-			<matiere id="Esp"/>
+			<matiere id="Electromag"/>
+			<matiere id="SYSEC"/>
+			<matiere id="Management"/>
+			<matiere id="Auto"/>
+			<matiere id="SysEx"/>
 		</matieres>
 	</enseignant>
 	<enseignant id="DR">
@@ -338,6 +346,8 @@
 		<matieres>
 			<matiere id="Maths"/>
 			<matiere id="Alge"/>
+			<matiere id="RO"/>
+			<matiere id="BDD"/>
 		</matieres>
 	</enseignant>
 	<enseignant id="LM">
@@ -346,20 +356,172 @@
 		<datenaissance>1968-07-04</datenaissance>
 		<grade>Enseignant-Chercheur</grade>
 		<matieres>
+			<matiere id="TRE"/>
+			<matiere id="CompMath"/>
+			<matiere id="topo"/>
 			<matiere id="Ph"/>
 			<matiere id="Cg"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="RP">
+		<nom>René</nom>
+		<prenom>Pierre</prenom>
+		<datenaissance>1984-12-02</datenaissance>
+		<grade>Enseignant</grade>
+		<matieres>
+			<matiere id="Cg"/>
+			<matiere id="Th"/>
+			<matiere id="Esp"/>
+			<matiere id="Management"/>
+			<matiere id="PPI"/>
+			<matiere id="Stat"/>
+			<matiere id="Auto"/>
+			<matiere id="SYSEC"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="MJ">
+		<nom>Michel</nom>
+		<prenom>Jacques</prenom>
+		<datenaissance>1933-07-04</datenaissance>
+		<grade>Enseignant-Chercheur</grade>
+		<matieres>
+			<matiere id="Ph"/>
+			<matiere id="RO"/>
+			<matiere id="BDD"/>
+			<matiere id="Algo"/>
+			<matiere id="TRE"/>
+			<matiere id="CompMath"/>
+			<matiere id="topo"/>
+			<matiere id="Cg"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="GA">
+		<nom>Griezman</nom>
+		<prenom>Antoine</prenom>
+		<datenaissance>1994-02-02</datenaissance>
+		<grade>Enseignant</grade>
+		<matieres>
+			<matiere id="IA"/>
+      <matiere id="Resemerg"/>
+			<matiere id="Services"/>
+			<matiere id="ProcDev"/>
+			<matiere id="IMod"/>
+			<matiere id="Methode"/>
+			<matiere id="SE"/>
+			<matiere id="Paradigm"/>
+			<matiere id="Alge"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="JP">
+		<nom>Jean</nom>
+		<prenom>Patrick</prenom>
+		<datenaissance>1962-05-04</datenaissance>
+		<grade>Enseignant-Chercheur</grade>
+		<matieres>
+			<matiere id="Transmi"/>
+      <matiere id="ResMob"/>
+      <matiere id="Gestion"/>
+			<matiere id="IS"/>
+			<matiere id="Mode"/>
+			<matiere id="BDD"/>
+			<matiere id="AN"/>
+			<matiere id="Entre"/>
+			<matiere id="Stat"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="PP">
+		<nom>Paul</nom>
+		<prenom>Paulotiae</prenom>
+		<datenaissance>1981-06-02</datenaissance>
+		<grade>Enseignant</grade>
+		<matieres>
+			<matiere id="Mt"/>
+      <matiere id="Ang"/>
+			<matiere id="Esp"/>
+			<matiere id="Alge"/>
+			<matiere id="Electromag"/>
+			<matiere id="Management"/>
+			<matiere id="Auto"/>
+			<matiere id="AN"/>
+			<matiere id="TRE"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="DD">
+		<nom>Dupont</nom>
+		<prenom>Denis</prenom>
+		<datenaissance>1928-11-09</datenaissance>
+		<grade>Enseignant-Chercheur</grade>
+		<matieres>
+			<matiere id="COO"/>
+      <matiere id="IS"/>
+			<matiere id="Gestion"/>
+			<matiere id="Periph"/>
+			<matiere id="ResMob"/>
+			<matiere id="Realtime"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="RR">
+		<nom>Remi</nom>
+		<prenom>Riliette</prenom>
+		<datenaissance>1924-11-06</datenaissance>
+		<grade>Enseignant</grade>
+		<matieres>
+			<matiere id="Transmi"/>
+      <matiere id="Projtuto"/>
+			<matiere id="Interco"/>
+			<matiere id="SE"/>
+			<matiere id="Paradigm"/>
+			<matiere id="IMod"/>
+			<matiere id="ProcDev"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="CS">
+		<nom>Cooper</nom>
+		<prenom>Sheldon</prenom>
+		<datenaissance>1959-01-01</datenaissance>
+		<grade>Enseignant-Chercheur</grade>
+		<matieres>
+			<matiere id="Ph"/>
+			<matiere id="Ph"/>
+			<matiere id="Ph"/>
+			<matiere id="Ph"/>
+			<matiere id="Ph"/>
+			<matiere id="Cg"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="DC">
+		<nom>Denis</nom>
+		<prenom>Charlo</prenom>
+		<datenaissance>1974-10-06</datenaissance>
+		<grade>Enseignant</grade>
+		<matieres>
+			<matiere id="COO"/>
+			<matiere id="Mode"/>
+      <matiere id="IS"/>
+		</matieres>
+	</enseignant>
+	<enseignant id="KL">
+		<nom>Katherine</nom>
+		<prenom>Lina</prenom>
+		<datenaissance>1976-06-14</datenaissance>
+		<grade>Enseignant-Chercheur</grade>
+		<matieres>
+			<matiere id="Gestion"/>
+			<matiere id="Realtime"/>
+			<matiere id="Projtuto"/>
+			<matiere id="Transmi"/>
 		</matieres>
 	</enseignant>
 	<matiere_uf id="Art1">
     <nom>Art Moderne</nom>
     <code>A1DAC2</code>
-	<cursus>IR</cursus>
+	  <cursus>IR</cursus>
     <annee>3</annee>
   </matiere_uf>
   <matiere_uf id="Sp">
     <nom>Sport</nom>
     <code>SP10</code>
-	<cursus>GP</cursus>
+	  <cursus>GP</cursus>
     <annee>4</annee>
   </matiere_uf>
   <matiere_uf id="Inf">
@@ -407,13 +569,13 @@
   <matiere_uf id="Maths">
     <nom>Mathematiques</nom>
     <code>M895</code>
-	<cursus></cursus>
+	<cursus>GMM</cursus>
     <annee>1</annee>
   </matiere_uf>
   <matiere_uf id="Alge">
     <nom>Algebre</nom>
     <code>DEV5</code>
-	<cursus></cursus>
+	<cursus>GMM</cursus>
     <annee>2</annee>
   </matiere_uf>
   <matiere_uf id="Electromag">

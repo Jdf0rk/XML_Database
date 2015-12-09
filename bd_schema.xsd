@@ -13,8 +13,8 @@
       <xs:sequence>
         <xs:element name="nom" type="xs:string"/>
         <xs:element name="code" type="xs:ID"/>
+        <xs:element name="cursus" type="cursus"/>
         <xs:element name="annee" type="annee"/>
-		<xs:element name="cursus" type="cursus"/>
       </xs:sequence>
       <xs:attribute name="id" type="xs:ID" use="required"/>
     </xs:complexType>
