@@ -1,4 +1,6 @@
-﻿ <scolarite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href= "XSLT/xslt.xsl" ?>
+<scolarite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="bd_schema.xsd">
   <etudiant id="A101"> 
 		<nom>Chatelard</nom>
