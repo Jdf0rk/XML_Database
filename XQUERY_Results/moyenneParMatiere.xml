@@ -1,0 +1,277 @@
+<resultat>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Algebre</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Algorithmique</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>5.666666666666667</moyenne>
+        <min>2</min>
+        <max>12</max>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>2</nbr_refus>
+        <nbr_total>3</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>0</nbr_admis>
+        <nbr_refus>2</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Analyse numerique</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Anglais</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Aptitudes Manageriales</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Architectures oriente services</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Art Moderne</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Automatisme</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Chimie generale</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>7.333333333333333</moyenne>
+        <min>1</min>
+        <max>14</max>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>2</nbr_refus>
+        <nbr_total>3</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>0</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Complement de Mathematiques</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Conception oriente objet</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Connaissances de l'entreprise</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Donnee et information</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Electromagnetisme</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espagnol</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>10.5</moyenne>
+        <min>5</min>
+        <max>15</max>
+        <nbr_admis>2</nbr_admis>
+        <nbr_refus>2</nbr_refus>
+        <nbr_total>4</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Fiabilite des systemes embarques</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Informatique fondamentale</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>13.666666666666666</moyenne>
+        <min>9</min>
+        <max>17</max>
+        <nbr_admis>2</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+        <nbr_total>3</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>0</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ingenierie des modeles</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Interconnexion des reseaux</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Internet et securite</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>8</moyenne>
+        <min>4</min>
+        <max>12</max>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+        <nbr_total>2</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>0</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Materiaux</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>8</moyenne>
+        <min>1</min>
+        <max>15</max>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+        <nbr_total>2</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>0</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mathematiques</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Methode et outils pour l'analyse fonctionnelle</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Microcontroleurs et peripherique</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modelisation</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Paradigme de programmation</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Philosophie</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Processus de developpement logiciel</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programmation par contrainte</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Projet personnel individualise</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>6.333333333333333</moyenne>
+        <min>1</min>
+        <max>10</max>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>2</nbr_refus>
+        <nbr_total>3</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Projets tutore et conduite de projet</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>9</moyenne>
+        <min>8</min>
+        <max>10</max>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+        <nbr_total>2</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>0</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Recherche operationnelle</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Reseau emergent</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Reseau mobile et sans fil</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SIMGEST</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sport</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Statistique</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Systeme conccurents et Temps reel</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Systeme d'exploitation</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Systemes electroniques et communicants</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Systemes intelligents</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Technique de recherche d'emploi</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>13</moyenne>
+        <min>9</min>
+        <max>17</max>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+        <nbr_total>2</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>0</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Techniques et systemes de transmission</nom>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Thermo</nom>
+    <resultat>
+      <resultatS1>
+        <moyenne>7.5</moyenne>
+        <min>5</min>
+        <max>10</max>
+        <nbr_admis>1</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+        <nbr_total>2</nbr_total>
+      </resultatS1>
+      <resultatS2>
+        <nbr_admis>0</nbr_admis>
+        <nbr_refus>1</nbr_refus>
+      </resultatS2>
+    </resultat>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Topologie</nom>
+  </matiere>
+</resultat>

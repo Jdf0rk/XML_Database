@@ -1,0 +1,53 @@
+<resultat>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Chatelard</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Valentin</prenom>
+    <nbr_dettes>1</nbr_dettes>
+    <dettes>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="Esp" noteS1="5" noteS2="2"/>
+    </dettes>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bates</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gill</prenom>
+    <nbr_dettes>1</nbr_dettes>
+    <dettes>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="Algo" noteS1="3" noteS2="9"/>
+    </dettes>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sartre</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jean Paul</prenom>
+    <nbr_dettes>1</nbr_dettes>
+    <dettes>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="CompMath" noteS1="9" noteS2="9"/>
+    </dettes>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Arthour</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Couillerre</prenom>
+    <nbr_dettes>2</nbr_dettes>
+    <dettes>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="TRE" noteS1="9" noteS2="9"/>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="Th" noteS1="5" noteS2="2"/>
+    </dettes>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jobs</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Steve</prenom>
+    <nbr_dettes>3</nbr_dettes>
+    <dettes>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="Resemerg" noteS1="1" noteS2="1"/>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="Algo" noteS1="2" noteS2="3"/>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="PPI" noteS1="1" noteS2="5"/>
+    </dettes>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Noel</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Papa</prenom>
+    <nbr_dettes>1</nbr_dettes>
+    <dettes>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="IS" noteS1="4" noteS2="4"/>
+    </dettes>
+  </etudiant>
+</resultat>

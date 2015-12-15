@@ -1,0 +1,21 @@
+<resultat>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Arthour</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Couillerre</prenom>
+    <nbr_dettes>2</nbr_dettes>
+    <dettes>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="TRE" noteS1="9" noteS2="9"/>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="Th" noteS1="5" noteS2="2"/>
+    </dettes>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jobs</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Steve</prenom>
+    <nbr_dettes>3</nbr_dettes>
+    <dettes>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="Resemerg" noteS1="1" noteS2="1"/>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="Algo" noteS1="2" noteS2="3"/>
+      <matiere_noteS2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id_matiere="PPI" noteS1="1" noteS2="5"/>
+    </dettes>
+  </etudiant>
+</resultat>

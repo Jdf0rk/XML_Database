@@ -1,0 +1,327 @@
+<resultat>
+  <groupe>A1<ListeEtudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A109">
+        <nom>Sartre</nom>
+        <prenom>Jean Paul</prenom>
+        <datenaissance>1962-11-10</datenaissance>
+        <annee>2</annee>
+        <cursus>AE</cursus>
+        <groupe>A1</groupe>
+        <matieres>
+          <matiere id="Stat"/>
+          <matiere id="CompMath"/>
+          <matiere id="Mode"/>
+          <matiere id="Paradigm"/>
+        </matieres>
+        <notes>
+          <matiere_noteS1 id_matiere="Stat" noteS1="19"/>
+          <matiere_noteS1 id_matiere="Mode" noteS1="17"/>
+          <matiere_noteS2 id_matiere="CompMath" noteS1="9" noteS2="9"/>
+          <matiere_noteS1 id_matiere="Paradigm" noteS1="14"/>
+        </notes>
+      </etudiant>
+    </ListeEtudiant>
+  </groupe>
+  <groupe>G1<ListeEtudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A103">
+        <nom>Josue</nom>
+        <prenom>Miguel</prenom>
+        <datenaissance>1992-12-25</datenaissance>
+        <annee>5</annee>
+        <cursus>GP</cursus>
+        <groupe>G1</groupe>
+        <matieres>
+          <matiere id="Esp"/>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Sp"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="Cg" noteS1="7" noteS2="10"/>
+          <matiere_noteS1 id_matiere="Sp" noteS1="11"/>
+          <matiere_noteS1 id_matiere="Th" noteS1="10"/>
+          <matiere_noteS1 id_matiere="Esp" noteS1="15"/>
+        </notes>
+      </etudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A104">
+        <nom>Pierre</nom>
+        <prenom>Paul</prenom>
+        <datenaissance>1992-11-25</datenaissance>
+        <annee>2</annee>
+        <cursus>GP</cursus>
+        <groupe>G1</groupe>
+        <matieres>
+          <matiere id="Esp"/>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Sp"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="Cg" noteS1="1" noteS2="10"/>
+        </notes>
+      </etudiant>
+    </ListeEtudiant>
+  </groupe>
+  <groupe>G2<ListeEtudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A106">
+        <nom>Arthour</nom>
+        <prenom>Couillerre</prenom>
+        <datenaissance>1993-11-27</datenaissance>
+        <annee>4</annee>
+        <cursus>GP</cursus>
+        <groupe>G2</groupe>
+        <matieres>
+          <matiere id="Esp"/>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Entre"/>
+          <matiere id="TRE"/>
+          <matiere id="Projtuto"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="Esp" noteS1="8" noteS2="12"/>
+          <matiere_noteS2 id_matiere="TRE" noteS1="9" noteS2="9"/>
+          <matiere_noteS2 id_matiere="Projtuto" noteS1="8" noteS2="19"/>
+          <matiere_noteS2 id_matiere="Th" noteS1="5" noteS2="2"/>
+          <matiere_noteS1 id_matiere="Cg" noteS1="14"/>
+          <matiere_noteS1 id_matiere="Entre" noteS1="16"/>
+        </notes>
+      </etudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A112">
+        <nom>Frère</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1995-11-13</datenaissance>
+        <annee>2</annee>
+        <cursus>GP</cursus>
+        <groupe>G2</groupe>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="Projtuto"/>
+          <matiere id="TRE"/>
+          <matiere id="Entre"/>
+          <matiere id="Esp"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="Transmi" noteS1="7" noteS2="14"/>
+          <matiere_noteS1 id_matiere="TRE" noteS1="17"/>
+          <matiere_noteS1 id_matiere="Projtuto" noteS1="10"/>
+          <matiere_noteS1 id_matiere="Entre" noteS1="19"/>
+          <matiere_noteS1 id_matiere="Esp" noteS1="14"/>
+        </notes>
+      </etudiant>
+    </ListeEtudiant>
+  </groupe>
+  <groupe>GM1<ListeEtudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A110">
+        <nom>Debarnot</nom>
+        <prenom>Valentin</prenom>
+        <datenaissance>1972-11-20</datenaissance>
+        <annee>5</annee>
+        <cursus>GMM</cursus>
+        <groupe>GM1</groupe>
+        <matieres>
+          <matiere id="ProcDev"/>
+          <matiere id="Gestion"/>
+          <matiere id="RO"/>
+          <matiere id="AN"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="Gestion" noteS1="4" noteS2="11"/>
+          <matiere_noteS2 id_matiere="RO" noteS1="8" noteS2="17"/>
+          <matiere_noteS1 id_matiere="ProcDev" noteS1="11"/>
+          <matiere_noteS1 id_matiere="AN" noteS1="17"/>
+        </notes>
+      </etudiant>
+    </ListeEtudiant>
+  </groupe>
+  <groupe>I2<ListeEtudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A114">
+        <nom>Toto</nom>
+        <prenom>Le Bateau</prenom>
+        <datenaissance>1965-11-25</datenaissance>
+        <annee>1</annee>
+        <cursus>IMACS</cursus>
+        <groupe>I2</groupe>
+        <matieres>
+          <matiere id="Auto"/>
+          <matiere id="BDD"/>
+          <matiere id="COO"/>
+          <matiere id="Realtime"/>
+          <matiere id="IMod"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="IMod" noteS1="7" noteS2="20"/>
+          <matiere_noteS2 id_matiere="COO" noteS1="9" noteS2="17"/>
+          <matiere_noteS1 id_matiere="Realtime" noteS1="15"/>
+          <matiere_noteS1 id_matiere="Auto" noteS1="17"/>
+        </notes>
+      </etudiant>
+    </ListeEtudiant>
+  </groupe>
+  <groupe>IA1<ListeEtudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A101">
+        <nom>Chatelard</nom>
+        <prenom>Valentin</prenom>
+        <datenaissance>1994-10-27</datenaissance>
+        <annee>4</annee>
+        <cursus>IR</cursus>
+        <groupe>IA1</groupe>
+        <matieres>
+          <matiere id="Art1"/>
+          <matiere id="Inf"/>
+          <matiere id="Sp"/>
+          <matiere id="Mt"/>
+          <matiere id="Esp"/>
+          <matiere id="Maths"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="Mt" noteS1="1" noteS2="19"/>
+          <!-- <key and keyref> -->
+          <matiere_noteS2 id_matiere="Inf" noteS1="9" noteS2="12"/>
+          <matiere_noteS2 id_matiere="Esp" noteS1="5" noteS2="2"/>
+          <matiere_noteS1 id_matiere="Sp" noteS1="11"/>
+          <matiere_noteS1 id_matiere="Maths" noteS1="19"/>
+        </notes>
+      </etudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A102">
+        <nom>Matthieu</nom>
+        <prenom>De Sousa</prenom>
+        <datenaissance>1989-06-09</datenaissance>
+        <annee>4</annee>
+        <cursus>IR</cursus>
+        <groupe>IA1</groupe>
+        <matieres>
+          <matiere id="ResMob"/>
+          <matiere id="Art1"/>
+          <matiere id="Inf"/>
+          <matiere id="Ph"/>
+          <matiere id="Ang"/>
+          <matiere id="Alge"/>
+        </matieres>
+        <notes>
+          <matiere_noteS1 id_matiere="ResMob" noteS1="11"/>
+          <matiere_noteS2 id_matiere="Art1" noteS1="5" noteS2="19"/>
+          <matiere_noteS1 id_matiere="Inf" noteS1="15"/>
+          <matiere_noteS1 id_matiere="Alge" noteS1="10"/>
+        </notes>
+      </etudiant>
+    </ListeEtudiant>
+  </groupe>
+  <groupe>IA2<ListeEtudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A107">
+        <nom>Frère</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1987-11-14</datenaissance>
+        <annee>2</annee>
+        <cursus>IR</cursus>
+        <groupe>IA2</groupe>
+        <matieres>
+          <matiere id="Art1"/>
+          <matiere id="Ang"/>
+          <matiere id="Electromag"/>
+          <matiere id="SysEx"/>
+          <matiere id="IS"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="Art1" noteS1="6" noteS2="13"/>
+          <matiere_noteS2 id_matiere="Ang" noteS1="9" noteS2="12"/>
+          <matiere_noteS1 id_matiere="SysEx" noteS1="11"/>
+          <matiere_noteS1 id_matiere="IS" noteS1="12"/>
+        </notes>
+      </etudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A111">
+        <nom>Noel</nom>
+        <prenom>Papa</prenom>
+        <datenaissance>1902-12-25</datenaissance>
+        <annee>3</annee>
+        <cursus>IR</cursus>
+        <groupe>IA2</groupe>
+        <matieres>
+          <matiere id="Inf"/>
+          <matiere id="Mt"/>
+          <matiere id="Ph"/>
+          <matiere id="SYSEC"/>
+          <matiere id="topo"/>
+          <matiere id="IS"/>
+          <matiere id="ResMob"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="IS" noteS1="4" noteS2="4"/>
+          <matiere_noteS1 id_matiere="Inf" noteS1="17"/>
+          <matiere_noteS1 id_matiere="Mt" noteS1="15"/>
+          <matiere_noteS1 id_matiere="Ph" noteS1="11"/>
+          <matiere_noteS1 id_matiere="SYSEC" noteS1="13"/>
+          <matiere_noteS1 id_matiere="ResMob" noteS1="15"/>
+          <matiere_noteS1 id_matiere="topo" noteS1="14"/>
+        </notes>
+      </etudiant>
+    </ListeEtudiant>
+  </groupe>
+  <groupe>M1<ListeEtudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A105">
+        <nom>Bates</nom>
+        <prenom>Gill</prenom>
+        <datenaissance>1962-10-12</datenaissance>
+        <annee>5</annee>
+        <cursus>MIC</cursus>
+        <groupe>M1</groupe>
+        <matieres>
+          <matiere id="PPI"/>
+          <matiere id="Algo"/>
+          <matiere id="Periph"/>
+          <matiere id="ProgCont"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="Algo" noteS1="3" noteS2="9"/>
+          <matiere_noteS2 id_matiere="PPI" noteS1="8" noteS2="15"/>
+          <matiere_noteS1 id_matiere="Periph" noteS1="12"/>
+          <matiere_noteS1 id_matiere="ProgCont" noteS1="17"/>
+        </notes>
+      </etudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A108">
+        <nom>Jobs</nom>
+        <prenom>Steve</prenom>
+        <datenaissance>1952-11-27</datenaissance>
+        <annee>4</annee>
+        <cursus>MIC</cursus>
+        <groupe>M1</groupe>
+        <matieres>
+          <matiere id="Resemerg"/>
+          <matiere id="ProgCont"/>
+          <matiere id="Periph"/>
+          <matiere id="Algo"/>
+          <matiere id="PPI"/>
+        </matieres>
+        <notes>
+          <matiere_noteS2 id_matiere="Resemerg" noteS1="1" noteS2="1"/>
+          <matiere_noteS2 id_matiere="Algo" noteS1="2" noteS2="3"/>
+          <matiere_noteS2 id_matiere="PPI" noteS1="1" noteS2="5"/>
+          <matiere_noteS1 id_matiere="ProgCont" noteS1="10"/>
+        </notes>
+      </etudiant>
+    </ListeEtudiant>
+  </groupe>
+  <groupe>M2<ListeEtudiant>
+      <etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="A113">
+        <nom>Sonne</nom>
+        <prenom>Jack</prenom>
+        <datenaissance>1992-11-12</datenaissance>
+        <annee>1</annee>
+        <cursus>MIC</cursus>
+        <groupe>M2</groupe>
+        <matieres>
+          <matiere id="PPI"/>
+          <matiere id="Algo"/>
+          <matiere id="Periph"/>
+          <matiere id="ProgCont"/>
+        </matieres>
+        <notes>
+          <matiere_noteS1 id_matiere="PPI" noteS1="10"/>
+          <matiere_noteS1 id_matiere="Algo" noteS1="12"/>
+          <matiere_noteS1 id_matiere="Periph" noteS1="13"/>
+          <matiere_noteS1 id_matiere="ProgCont" noteS1="14"/>
+        </notes>
+      </etudiant>
+    </ListeEtudiant>
+  </groupe>
+</resultat>

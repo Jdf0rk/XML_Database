@@ -1,0 +1,226 @@
+<resultat>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Arthour</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Couillerre</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne>14</moyenne>
+      </annee>
+      <annee>2<moyenne>16</moyenne>
+      </annee>
+      <annee>3<moyenne/>
+      </annee>
+      <annee>4<moyenne/>
+      </annee>
+      <annee>5<moyenne/>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bates</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gill</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne/>
+      </annee>
+      <annee>3<moyenne/>
+      </annee>
+      <annee>4<moyenne>12</moyenne>
+      </annee>
+      <annee>5<moyenne>17</moyenne>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Chatelard</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Valentin</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne>19</moyenne>
+      </annee>
+      <annee>2<moyenne/>
+      </annee>
+      <annee>3<moyenne/>
+      </annee>
+      <annee>4<moyenne>11</moyenne>
+      </annee>
+      <annee>5<moyenne/>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debarnot</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Valentin</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne/>
+      </annee>
+      <annee>3<moyenne>17</moyenne>
+      </annee>
+      <annee>4<moyenne/>
+      </annee>
+      <annee>5<moyenne>11</moyenne>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Frère</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jacques</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne/>
+      </annee>
+      <annee>3<moyenne>11</moyenne>
+      </annee>
+      <annee>4<moyenne>12</moyenne>
+      </annee>
+      <annee>5<moyenne/>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Frère</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jacques</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne>14</moyenne>
+      </annee>
+      <annee>2<moyenne>19</moyenne>
+      </annee>
+      <annee>3<moyenne>17</moyenne>
+      </annee>
+      <annee>4<moyenne>10</moyenne>
+      </annee>
+      <annee>5<moyenne/>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jobs</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Steve</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne/>
+      </annee>
+      <annee>3<moyenne/>
+      </annee>
+      <annee>4<moyenne/>
+      </annee>
+      <annee>5<moyenne>10</moyenne>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Josue</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Miguel</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne>15</moyenne>
+      </annee>
+      <annee>2<moyenne/>
+      </annee>
+      <annee>3<moyenne>10</moyenne>
+      </annee>
+      <annee>4<moyenne>11</moyenne>
+      </annee>
+      <annee>5<moyenne/>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Matthieu</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">De Sousa</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne>10</moyenne>
+      </annee>
+      <annee>3<moyenne>15</moyenne>
+      </annee>
+      <annee>4<moyenne>11</moyenne>
+      </annee>
+      <annee>5<moyenne/>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Noel</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Papa</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne>13</moyenne>
+      </annee>
+      <annee>3<moyenne>15.5</moyenne>
+      </annee>
+      <annee>4<moyenne>13</moyenne>
+      </annee>
+      <annee>5<moyenne/>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pierre</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Paul</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne/>
+      </annee>
+      <annee>3<moyenne/>
+      </annee>
+      <annee>4<moyenne/>
+      </annee>
+      <annee>5<moyenne/>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sartre</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jean Paul</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne>19</moyenne>
+      </annee>
+      <annee>3<moyenne>17</moyenne>
+      </annee>
+      <annee>4<moyenne/>
+      </annee>
+      <annee>5<moyenne>14</moyenne>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sonne</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jack</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne>11</moyenne>
+      </annee>
+      <annee>3<moyenne/>
+      </annee>
+      <annee>4<moyenne>13</moyenne>
+      </annee>
+      <annee>5<moyenne>14</moyenne>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+  <etudiant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Toto</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Le Bateau</prenom>
+    <moyenne_S1>
+      <annee>1<moyenne/>
+      </annee>
+      <annee>2<moyenne>17</moyenne>
+      </annee>
+      <annee>3<moyenne/>
+      </annee>
+      <annee>4<moyenne>15</moyenne>
+      </annee>
+      <annee>5<moyenne/>
+      </annee>
+    </moyenne_S1>
+  </etudiant>
+</resultat>

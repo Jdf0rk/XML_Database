@@ -1,0 +1,1549 @@
+<resultat>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Algebre</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DR">
+        <nom>Daniel</nom>
+        <prenom>Rilant</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Maths"/>
+          <matiere id="Alge"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GA">
+        <nom>Griezman</nom>
+        <prenom>Antoine</prenom>
+        <datenaissance>1994-02-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="IA"/>
+          <matiere id="Resemerg"/>
+          <matiere id="Services"/>
+          <matiere id="ProcDev"/>
+          <matiere id="IMod"/>
+          <matiere id="Methode"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="Alge"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PP">
+        <nom>Paul</nom>
+        <prenom>Paulotiae</prenom>
+        <datenaissance>1981-06-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Mt"/>
+          <matiere id="Ang"/>
+          <matiere id="Esp"/>
+          <matiere id="Alge"/>
+          <matiere id="Electromag"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="AN"/>
+          <matiere id="TRE"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Algorithmique</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MJ">
+        <nom>Michel</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1933-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+          <matiere id="Algo"/>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Analyse numerique</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="JP">
+        <nom>Jean</nom>
+        <prenom>Patrick</prenom>
+        <datenaissance>1962-05-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="ResMob"/>
+          <matiere id="Gestion"/>
+          <matiere id="IS"/>
+          <matiere id="Mode"/>
+          <matiere id="BDD"/>
+          <matiere id="AN"/>
+          <matiere id="Entre"/>
+          <matiere id="Stat"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PP">
+        <nom>Paul</nom>
+        <prenom>Paulotiae</prenom>
+        <datenaissance>1981-06-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Mt"/>
+          <matiere id="Ang"/>
+          <matiere id="Esp"/>
+          <matiere id="Alge"/>
+          <matiere id="Electromag"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="AN"/>
+          <matiere id="TRE"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Anglais</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AR">
+        <nom>Albert</nom>
+        <prenom>Roson</prenom>
+        <datenaissance>1964-12-11</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Art1"/>
+          <matiere id="Sp"/>
+          <matiere id="Inf"/>
+          <matiere id="Mt"/>
+          <matiere id="Th"/>
+          <matiere id="Ang"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PP">
+        <nom>Paul</nom>
+        <prenom>Paulotiae</prenom>
+        <datenaissance>1981-06-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Mt"/>
+          <matiere id="Ang"/>
+          <matiere id="Esp"/>
+          <matiere id="Alge"/>
+          <matiere id="Electromag"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="AN"/>
+          <matiere id="TRE"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Aptitudes Manageriales</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BF">
+        <nom>Baltimore</nom>
+        <prenom>Farot</prenom>
+        <datenaissance>1959-05-05</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Electromag"/>
+          <matiere id="SYSEC"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="SysEx"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RP">
+        <nom>René</nom>
+        <prenom>Pierre</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Esp"/>
+          <matiere id="Management"/>
+          <matiere id="PPI"/>
+          <matiere id="Stat"/>
+          <matiere id="Auto"/>
+          <matiere id="SYSEC"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PP">
+        <nom>Paul</nom>
+        <prenom>Paulotiae</prenom>
+        <datenaissance>1981-06-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Mt"/>
+          <matiere id="Ang"/>
+          <matiere id="Esp"/>
+          <matiere id="Alge"/>
+          <matiere id="Electromag"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="AN"/>
+          <matiere id="TRE"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Architectures oriente services</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GA">
+        <nom>Griezman</nom>
+        <prenom>Antoine</prenom>
+        <datenaissance>1994-02-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="IA"/>
+          <matiere id="Resemerg"/>
+          <matiere id="Services"/>
+          <matiere id="ProcDev"/>
+          <matiere id="IMod"/>
+          <matiere id="Methode"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="Alge"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Art Moderne</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AR">
+        <nom>Albert</nom>
+        <prenom>Roson</prenom>
+        <datenaissance>1964-12-11</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Art1"/>
+          <matiere id="Sp"/>
+          <matiere id="Inf"/>
+          <matiere id="Mt"/>
+          <matiere id="Th"/>
+          <matiere id="Ang"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Automatisme</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BF">
+        <nom>Baltimore</nom>
+        <prenom>Farot</prenom>
+        <datenaissance>1959-05-05</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Electromag"/>
+          <matiere id="SYSEC"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="SysEx"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RP">
+        <nom>René</nom>
+        <prenom>Pierre</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Esp"/>
+          <matiere id="Management"/>
+          <matiere id="PPI"/>
+          <matiere id="Stat"/>
+          <matiere id="Auto"/>
+          <matiere id="SYSEC"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PP">
+        <nom>Paul</nom>
+        <prenom>Paulotiae</prenom>
+        <datenaissance>1981-06-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Mt"/>
+          <matiere id="Ang"/>
+          <matiere id="Esp"/>
+          <matiere id="Alge"/>
+          <matiere id="Electromag"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="AN"/>
+          <matiere id="TRE"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Chimie generale</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="LM">
+        <nom>Lisa</nom>
+        <prenom>Manta</prenom>
+        <datenaissance>1968-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Ph"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RP">
+        <nom>René</nom>
+        <prenom>Pierre</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Esp"/>
+          <matiere id="Management"/>
+          <matiere id="PPI"/>
+          <matiere id="Stat"/>
+          <matiere id="Auto"/>
+          <matiere id="SYSEC"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MJ">
+        <nom>Michel</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1933-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+          <matiere id="Algo"/>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CS">
+        <nom>Cooper</nom>
+        <prenom>Sheldon</prenom>
+        <datenaissance>1959-01-01</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="Ph"/>
+          <matiere id="Ph"/>
+          <matiere id="Ph"/>
+          <matiere id="Ph"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Complement de Mathematiques</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="LM">
+        <nom>Lisa</nom>
+        <prenom>Manta</prenom>
+        <datenaissance>1968-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Ph"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MJ">
+        <nom>Michel</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1933-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+          <matiere id="Algo"/>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Conception oriente objet</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DD">
+        <nom>Dupont</nom>
+        <prenom>Denis</prenom>
+        <datenaissance>1928-11-09</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="COO"/>
+          <matiere id="IS"/>
+          <matiere id="Gestion"/>
+          <matiere id="Periph"/>
+          <matiere id="ResMob"/>
+          <matiere id="Realtime"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DC">
+        <nom>Denis</nom>
+        <prenom>Charlo</prenom>
+        <datenaissance>1974-10-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="COO"/>
+          <matiere id="Mode"/>
+          <matiere id="IS"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Connaissances de l'entreprise</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="JP">
+        <nom>Jean</nom>
+        <prenom>Patrick</prenom>
+        <datenaissance>1962-05-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="ResMob"/>
+          <matiere id="Gestion"/>
+          <matiere id="IS"/>
+          <matiere id="Mode"/>
+          <matiere id="BDD"/>
+          <matiere id="AN"/>
+          <matiere id="Entre"/>
+          <matiere id="Stat"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Donnee et information</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DR">
+        <nom>Daniel</nom>
+        <prenom>Rilant</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Maths"/>
+          <matiere id="Alge"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MJ">
+        <nom>Michel</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1933-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+          <matiere id="Algo"/>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="JP">
+        <nom>Jean</nom>
+        <prenom>Patrick</prenom>
+        <datenaissance>1962-05-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="ResMob"/>
+          <matiere id="Gestion"/>
+          <matiere id="IS"/>
+          <matiere id="Mode"/>
+          <matiere id="BDD"/>
+          <matiere id="AN"/>
+          <matiere id="Entre"/>
+          <matiere id="Stat"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Electromagnetisme</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BF">
+        <nom>Baltimore</nom>
+        <prenom>Farot</prenom>
+        <datenaissance>1959-05-05</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Electromag"/>
+          <matiere id="SYSEC"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="SysEx"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PP">
+        <nom>Paul</nom>
+        <prenom>Paulotiae</prenom>
+        <datenaissance>1981-06-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Mt"/>
+          <matiere id="Ang"/>
+          <matiere id="Esp"/>
+          <matiere id="Alge"/>
+          <matiere id="Electromag"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="AN"/>
+          <matiere id="TRE"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espagnol</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DE">
+        <nom>Delphine</nom>
+        <prenom>Erthe</prenom>
+        <datenaissance>1986-05-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Inf"/>
+          <matiere id="Esp"/>
+          <matiere id="Maths"/>
+          <matiere id="Mt"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RP">
+        <nom>René</nom>
+        <prenom>Pierre</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Esp"/>
+          <matiere id="Management"/>
+          <matiere id="PPI"/>
+          <matiere id="Stat"/>
+          <matiere id="Auto"/>
+          <matiere id="SYSEC"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PP">
+        <nom>Paul</nom>
+        <prenom>Paulotiae</prenom>
+        <datenaissance>1981-06-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Mt"/>
+          <matiere id="Ang"/>
+          <matiere id="Esp"/>
+          <matiere id="Alge"/>
+          <matiere id="Electromag"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="AN"/>
+          <matiere id="TRE"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Fiabilite des systemes embarques</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GA">
+        <nom>Griezman</nom>
+        <prenom>Antoine</prenom>
+        <datenaissance>1994-02-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="IA"/>
+          <matiere id="Resemerg"/>
+          <matiere id="Services"/>
+          <matiere id="ProcDev"/>
+          <matiere id="IMod"/>
+          <matiere id="Methode"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="Alge"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RR">
+        <nom>Remi</nom>
+        <prenom>Riliette</prenom>
+        <datenaissance>1924-11-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Interco"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="IMod"/>
+          <matiere id="ProcDev"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Informatique fondamentale</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AR">
+        <nom>Albert</nom>
+        <prenom>Roson</prenom>
+        <datenaissance>1964-12-11</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Art1"/>
+          <matiere id="Sp"/>
+          <matiere id="Inf"/>
+          <matiere id="Mt"/>
+          <matiere id="Th"/>
+          <matiere id="Ang"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DE">
+        <nom>Delphine</nom>
+        <prenom>Erthe</prenom>
+        <datenaissance>1986-05-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Inf"/>
+          <matiere id="Esp"/>
+          <matiere id="Maths"/>
+          <matiere id="Mt"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ingenierie des modeles</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GA">
+        <nom>Griezman</nom>
+        <prenom>Antoine</prenom>
+        <datenaissance>1994-02-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="IA"/>
+          <matiere id="Resemerg"/>
+          <matiere id="Services"/>
+          <matiere id="ProcDev"/>
+          <matiere id="IMod"/>
+          <matiere id="Methode"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="Alge"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RR">
+        <nom>Remi</nom>
+        <prenom>Riliette</prenom>
+        <datenaissance>1924-11-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Interco"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="IMod"/>
+          <matiere id="ProcDev"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Interconnexion des reseaux</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RR">
+        <nom>Remi</nom>
+        <prenom>Riliette</prenom>
+        <datenaissance>1924-11-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Interco"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="IMod"/>
+          <matiere id="ProcDev"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Internet et securite</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="JP">
+        <nom>Jean</nom>
+        <prenom>Patrick</prenom>
+        <datenaissance>1962-05-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="ResMob"/>
+          <matiere id="Gestion"/>
+          <matiere id="IS"/>
+          <matiere id="Mode"/>
+          <matiere id="BDD"/>
+          <matiere id="AN"/>
+          <matiere id="Entre"/>
+          <matiere id="Stat"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DD">
+        <nom>Dupont</nom>
+        <prenom>Denis</prenom>
+        <datenaissance>1928-11-09</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="COO"/>
+          <matiere id="IS"/>
+          <matiere id="Gestion"/>
+          <matiere id="Periph"/>
+          <matiere id="ResMob"/>
+          <matiere id="Realtime"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DC">
+        <nom>Denis</nom>
+        <prenom>Charlo</prenom>
+        <datenaissance>1974-10-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="COO"/>
+          <matiere id="Mode"/>
+          <matiere id="IS"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Materiaux</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AR">
+        <nom>Albert</nom>
+        <prenom>Roson</prenom>
+        <datenaissance>1964-12-11</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Art1"/>
+          <matiere id="Sp"/>
+          <matiere id="Inf"/>
+          <matiere id="Mt"/>
+          <matiere id="Th"/>
+          <matiere id="Ang"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DE">
+        <nom>Delphine</nom>
+        <prenom>Erthe</prenom>
+        <datenaissance>1986-05-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Inf"/>
+          <matiere id="Esp"/>
+          <matiere id="Maths"/>
+          <matiere id="Mt"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PP">
+        <nom>Paul</nom>
+        <prenom>Paulotiae</prenom>
+        <datenaissance>1981-06-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Mt"/>
+          <matiere id="Ang"/>
+          <matiere id="Esp"/>
+          <matiere id="Alge"/>
+          <matiere id="Electromag"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="AN"/>
+          <matiere id="TRE"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mathematiques</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DE">
+        <nom>Delphine</nom>
+        <prenom>Erthe</prenom>
+        <datenaissance>1986-05-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Inf"/>
+          <matiere id="Esp"/>
+          <matiere id="Maths"/>
+          <matiere id="Mt"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DR">
+        <nom>Daniel</nom>
+        <prenom>Rilant</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Maths"/>
+          <matiere id="Alge"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Methode et outils pour l'analyse fonctionnelle</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GA">
+        <nom>Griezman</nom>
+        <prenom>Antoine</prenom>
+        <datenaissance>1994-02-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="IA"/>
+          <matiere id="Resemerg"/>
+          <matiere id="Services"/>
+          <matiere id="ProcDev"/>
+          <matiere id="IMod"/>
+          <matiere id="Methode"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="Alge"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Microcontroleurs et peripherique</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DD">
+        <nom>Dupont</nom>
+        <prenom>Denis</prenom>
+        <datenaissance>1928-11-09</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="COO"/>
+          <matiere id="IS"/>
+          <matiere id="Gestion"/>
+          <matiere id="Periph"/>
+          <matiere id="ResMob"/>
+          <matiere id="Realtime"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modelisation</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="JP">
+        <nom>Jean</nom>
+        <prenom>Patrick</prenom>
+        <datenaissance>1962-05-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="ResMob"/>
+          <matiere id="Gestion"/>
+          <matiere id="IS"/>
+          <matiere id="Mode"/>
+          <matiere id="BDD"/>
+          <matiere id="AN"/>
+          <matiere id="Entre"/>
+          <matiere id="Stat"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DC">
+        <nom>Denis</nom>
+        <prenom>Charlo</prenom>
+        <datenaissance>1974-10-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="COO"/>
+          <matiere id="Mode"/>
+          <matiere id="IS"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Paradigme de programmation</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GA">
+        <nom>Griezman</nom>
+        <prenom>Antoine</prenom>
+        <datenaissance>1994-02-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="IA"/>
+          <matiere id="Resemerg"/>
+          <matiere id="Services"/>
+          <matiere id="ProcDev"/>
+          <matiere id="IMod"/>
+          <matiere id="Methode"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="Alge"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RR">
+        <nom>Remi</nom>
+        <prenom>Riliette</prenom>
+        <datenaissance>1924-11-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Interco"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="IMod"/>
+          <matiere id="ProcDev"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Philosophie</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="LM">
+        <nom>Lisa</nom>
+        <prenom>Manta</prenom>
+        <datenaissance>1968-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Ph"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MJ">
+        <nom>Michel</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1933-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+          <matiere id="Algo"/>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CS">
+        <nom>Cooper</nom>
+        <prenom>Sheldon</prenom>
+        <datenaissance>1959-01-01</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="Ph"/>
+          <matiere id="Ph"/>
+          <matiere id="Ph"/>
+          <matiere id="Ph"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Processus de developpement logiciel</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GA">
+        <nom>Griezman</nom>
+        <prenom>Antoine</prenom>
+        <datenaissance>1994-02-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="IA"/>
+          <matiere id="Resemerg"/>
+          <matiere id="Services"/>
+          <matiere id="ProcDev"/>
+          <matiere id="IMod"/>
+          <matiere id="Methode"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="Alge"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RR">
+        <nom>Remi</nom>
+        <prenom>Riliette</prenom>
+        <datenaissance>1924-11-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Interco"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="IMod"/>
+          <matiere id="ProcDev"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programmation par contrainte</nom>
+    <enseignants/>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Projet personnel individualise</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RP">
+        <nom>René</nom>
+        <prenom>Pierre</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Esp"/>
+          <matiere id="Management"/>
+          <matiere id="PPI"/>
+          <matiere id="Stat"/>
+          <matiere id="Auto"/>
+          <matiere id="SYSEC"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Projets tutore et conduite de projet</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RR">
+        <nom>Remi</nom>
+        <prenom>Riliette</prenom>
+        <datenaissance>1924-11-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Interco"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="IMod"/>
+          <matiere id="ProcDev"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="KL">
+        <nom>Katherine</nom>
+        <prenom>Lina</prenom>
+        <datenaissance>1976-06-14</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Gestion"/>
+          <matiere id="Realtime"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Transmi"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Recherche operationnelle</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DR">
+        <nom>Daniel</nom>
+        <prenom>Rilant</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Maths"/>
+          <matiere id="Alge"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MJ">
+        <nom>Michel</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1933-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+          <matiere id="Algo"/>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Reseau emergent</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GA">
+        <nom>Griezman</nom>
+        <prenom>Antoine</prenom>
+        <datenaissance>1994-02-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="IA"/>
+          <matiere id="Resemerg"/>
+          <matiere id="Services"/>
+          <matiere id="ProcDev"/>
+          <matiere id="IMod"/>
+          <matiere id="Methode"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="Alge"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Reseau mobile et sans fil</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="JP">
+        <nom>Jean</nom>
+        <prenom>Patrick</prenom>
+        <datenaissance>1962-05-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="ResMob"/>
+          <matiere id="Gestion"/>
+          <matiere id="IS"/>
+          <matiere id="Mode"/>
+          <matiere id="BDD"/>
+          <matiere id="AN"/>
+          <matiere id="Entre"/>
+          <matiere id="Stat"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DD">
+        <nom>Dupont</nom>
+        <prenom>Denis</prenom>
+        <datenaissance>1928-11-09</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="COO"/>
+          <matiere id="IS"/>
+          <matiere id="Gestion"/>
+          <matiere id="Periph"/>
+          <matiere id="ResMob"/>
+          <matiere id="Realtime"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SIMGEST</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="JP">
+        <nom>Jean</nom>
+        <prenom>Patrick</prenom>
+        <datenaissance>1962-05-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="ResMob"/>
+          <matiere id="Gestion"/>
+          <matiere id="IS"/>
+          <matiere id="Mode"/>
+          <matiere id="BDD"/>
+          <matiere id="AN"/>
+          <matiere id="Entre"/>
+          <matiere id="Stat"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DD">
+        <nom>Dupont</nom>
+        <prenom>Denis</prenom>
+        <datenaissance>1928-11-09</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="COO"/>
+          <matiere id="IS"/>
+          <matiere id="Gestion"/>
+          <matiere id="Periph"/>
+          <matiere id="ResMob"/>
+          <matiere id="Realtime"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="KL">
+        <nom>Katherine</nom>
+        <prenom>Lina</prenom>
+        <datenaissance>1976-06-14</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Gestion"/>
+          <matiere id="Realtime"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Transmi"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sport</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AR">
+        <nom>Albert</nom>
+        <prenom>Roson</prenom>
+        <datenaissance>1964-12-11</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Art1"/>
+          <matiere id="Sp"/>
+          <matiere id="Inf"/>
+          <matiere id="Mt"/>
+          <matiere id="Th"/>
+          <matiere id="Ang"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Statistique</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RP">
+        <nom>René</nom>
+        <prenom>Pierre</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Esp"/>
+          <matiere id="Management"/>
+          <matiere id="PPI"/>
+          <matiere id="Stat"/>
+          <matiere id="Auto"/>
+          <matiere id="SYSEC"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="JP">
+        <nom>Jean</nom>
+        <prenom>Patrick</prenom>
+        <datenaissance>1962-05-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="ResMob"/>
+          <matiere id="Gestion"/>
+          <matiere id="IS"/>
+          <matiere id="Mode"/>
+          <matiere id="BDD"/>
+          <matiere id="AN"/>
+          <matiere id="Entre"/>
+          <matiere id="Stat"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Systeme conccurents et Temps reel</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DD">
+        <nom>Dupont</nom>
+        <prenom>Denis</prenom>
+        <datenaissance>1928-11-09</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="COO"/>
+          <matiere id="IS"/>
+          <matiere id="Gestion"/>
+          <matiere id="Periph"/>
+          <matiere id="ResMob"/>
+          <matiere id="Realtime"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="KL">
+        <nom>Katherine</nom>
+        <prenom>Lina</prenom>
+        <datenaissance>1976-06-14</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Gestion"/>
+          <matiere id="Realtime"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Transmi"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Systeme d'exploitation</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BF">
+        <nom>Baltimore</nom>
+        <prenom>Farot</prenom>
+        <datenaissance>1959-05-05</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Electromag"/>
+          <matiere id="SYSEC"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="SysEx"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Systemes electroniques et communicants</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BF">
+        <nom>Baltimore</nom>
+        <prenom>Farot</prenom>
+        <datenaissance>1959-05-05</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Electromag"/>
+          <matiere id="SYSEC"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="SysEx"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RP">
+        <nom>René</nom>
+        <prenom>Pierre</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Esp"/>
+          <matiere id="Management"/>
+          <matiere id="PPI"/>
+          <matiere id="Stat"/>
+          <matiere id="Auto"/>
+          <matiere id="SYSEC"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Systemes intelligents</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GA">
+        <nom>Griezman</nom>
+        <prenom>Antoine</prenom>
+        <datenaissance>1994-02-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="IA"/>
+          <matiere id="Resemerg"/>
+          <matiere id="Services"/>
+          <matiere id="ProcDev"/>
+          <matiere id="IMod"/>
+          <matiere id="Methode"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="Alge"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Technique de recherche d'emploi</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="LM">
+        <nom>Lisa</nom>
+        <prenom>Manta</prenom>
+        <datenaissance>1968-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Ph"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MJ">
+        <nom>Michel</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1933-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+          <matiere id="Algo"/>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PP">
+        <nom>Paul</nom>
+        <prenom>Paulotiae</prenom>
+        <datenaissance>1981-06-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Mt"/>
+          <matiere id="Ang"/>
+          <matiere id="Esp"/>
+          <matiere id="Alge"/>
+          <matiere id="Electromag"/>
+          <matiere id="Management"/>
+          <matiere id="Auto"/>
+          <matiere id="AN"/>
+          <matiere id="TRE"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Techniques et systemes de transmission</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="JP">
+        <nom>Jean</nom>
+        <prenom>Patrick</prenom>
+        <datenaissance>1962-05-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="ResMob"/>
+          <matiere id="Gestion"/>
+          <matiere id="IS"/>
+          <matiere id="Mode"/>
+          <matiere id="BDD"/>
+          <matiere id="AN"/>
+          <matiere id="Entre"/>
+          <matiere id="Stat"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RR">
+        <nom>Remi</nom>
+        <prenom>Riliette</prenom>
+        <datenaissance>1924-11-06</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Transmi"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Interco"/>
+          <matiere id="SE"/>
+          <matiere id="Paradigm"/>
+          <matiere id="IMod"/>
+          <matiere id="ProcDev"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="KL">
+        <nom>Katherine</nom>
+        <prenom>Lina</prenom>
+        <datenaissance>1976-06-14</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Gestion"/>
+          <matiere id="Realtime"/>
+          <matiere id="Projtuto"/>
+          <matiere id="Transmi"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Thermo</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AR">
+        <nom>Albert</nom>
+        <prenom>Roson</prenom>
+        <datenaissance>1964-12-11</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Art1"/>
+          <matiere id="Sp"/>
+          <matiere id="Inf"/>
+          <matiere id="Mt"/>
+          <matiere id="Th"/>
+          <matiere id="Ang"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RP">
+        <nom>René</nom>
+        <prenom>Pierre</prenom>
+        <datenaissance>1984-12-02</datenaissance>
+        <grade>Enseignant</grade>
+        <matieres>
+          <matiere id="Cg"/>
+          <matiere id="Th"/>
+          <matiere id="Esp"/>
+          <matiere id="Management"/>
+          <matiere id="PPI"/>
+          <matiere id="Stat"/>
+          <matiere id="Auto"/>
+          <matiere id="SYSEC"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+  <matiere>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Topologie</nom>
+    <enseignants>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="LM">
+        <nom>Lisa</nom>
+        <prenom>Manta</prenom>
+        <datenaissance>1968-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Ph"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+      <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MJ">
+        <nom>Michel</nom>
+        <prenom>Jacques</prenom>
+        <datenaissance>1933-07-04</datenaissance>
+        <grade>Enseignant-Chercheur</grade>
+        <matieres>
+          <matiere id="Ph"/>
+          <matiere id="RO"/>
+          <matiere id="BDD"/>
+          <matiere id="Algo"/>
+          <matiere id="TRE"/>
+          <matiere id="CompMath"/>
+          <matiere id="topo"/>
+          <matiere id="Cg"/>
+        </matieres>
+      </enseignant>
+    </enseignants>
+  </matiere>
+</resultat>

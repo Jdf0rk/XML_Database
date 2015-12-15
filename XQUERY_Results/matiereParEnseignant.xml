@@ -1,0 +1,650 @@
+<resultat>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Albert</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Roson</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Art1">
+        <nom>Art Moderne</nom>
+        <code>A1DAC2</code>
+        <cursus>IR</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Sp">
+        <nom>Sport</nom>
+        <code>SP10</code>
+        <cursus>GP</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Inf">
+        <nom>Informatique fondamentale</nom>
+        <code>A125DC</code>
+        <cursus>IR</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Mt">
+        <nom>Materiaux</nom>
+        <code>ART</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Th">
+        <nom>Thermo</nom>
+        <code>TH33</code>
+        <cursus>GP</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Ang">
+        <nom>Anglais</nom>
+        <code>A9AN</code>
+        <cursus>IR</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Baltimore</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Farot</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Electromag">
+        <nom>Electromagnetisme</nom>
+        <code>ELM48</code>
+        <cursus>IR</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SYSEC">
+        <nom>Systemes electroniques et communicants</nom>
+        <code>SEC5</code>
+        <cursus>IR</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Management">
+        <nom>Aptitudes Manageriales</nom>
+        <code>AM42</code>
+        <cursus>IMACS</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Auto">
+        <nom>Automatisme</nom>
+        <code>A12MIAU</code>
+        <cursus>IMACS</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SysEx">
+        <nom>Systeme d'exploitation</nom>
+        <code>SYSEX33</code>
+        <cursus>IR</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Cooper</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sheldon</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Ph">
+        <nom>Philosophie</nom>
+        <code>A56KC</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Ph">
+        <nom>Philosophie</nom>
+        <code>A56KC</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Ph">
+        <nom>Philosophie</nom>
+        <code>A56KC</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Ph">
+        <nom>Philosophie</nom>
+        <code>A56KC</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Ph">
+        <nom>Philosophie</nom>
+        <code>A56KC</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Cg">
+        <nom>Chimie generale</nom>
+        <code>AD32</code>
+        <cursus>GP</cursus>
+        <annee>1</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Daniel</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rilant</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Maths">
+        <nom>Mathematiques</nom>
+        <code>M895</code>
+        <cursus>GMM</cursus>
+        <annee>1</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Alge">
+        <nom>Algebre</nom>
+        <code>DEV5</code>
+        <cursus>GMM</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RO">
+        <nom>Recherche operationnelle</nom>
+        <code>kro33</code>
+        <cursus>GMM</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BDD">
+        <nom>Donnee et information</nom>
+        <code>ZDD33</code>
+        <cursus>IMACS</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Delphine</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Erthe</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Inf">
+        <nom>Informatique fondamentale</nom>
+        <code>A125DC</code>
+        <cursus>IR</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Esp">
+        <nom>Espagnol</nom>
+        <code>A6ES6</code>
+        <cursus>GP</cursus>
+        <annee>1</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Maths">
+        <nom>Mathematiques</nom>
+        <code>M895</code>
+        <cursus>GMM</cursus>
+        <annee>1</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Mt">
+        <nom>Materiaux</nom>
+        <code>ART</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Denis</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Charlo</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="COO">
+        <nom>Conception oriente objet</nom>
+        <code>QSDF33</code>
+        <cursus>IMACS</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Mode">
+        <nom>Modelisation</nom>
+        <code>MOD33</code>
+        <cursus>AE</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IS">
+        <nom>Internet et securite</nom>
+        <code>JBFH33</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dupont</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Denis</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="COO">
+        <nom>Conception oriente objet</nom>
+        <code>QSDF33</code>
+        <cursus>IMACS</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IS">
+        <nom>Internet et securite</nom>
+        <code>JBFH33</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Gestion">
+        <nom>SIMGEST</nom>
+        <code>LDSK78J</code>
+        <cursus>GMM</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Periph">
+        <nom>Microcontroleurs et peripherique</nom>
+        <code>lJSD78</code>
+        <cursus>MIC</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ResMob">
+        <nom>Reseau mobile et sans fil</nom>
+        <code>IOF53</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Realtime">
+        <nom>Systeme conccurents et Temps reel</nom>
+        <code>RTR11</code>
+        <cursus>IMACS</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Griezman</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Antoine</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IA">
+        <nom>Systemes intelligents</nom>
+        <code>SOP64</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Resemerg">
+        <nom>Reseau emergent</nom>
+        <code>RE42</code>
+        <cursus>MIC</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Services">
+        <nom>Architectures oriente services</nom>
+        <code>AOS87</code>
+        <cursus>AE</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ProcDev">
+        <nom>Processus de developpement logiciel</nom>
+        <code>PDL45</code>
+        <cursus>GMM</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IMod">
+        <nom>Ingenierie des modeles</nom>
+        <code>RD7</code>
+        <cursus>IMACS</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Methode">
+        <nom>Methode et outils pour l'analyse fonctionnelle</nom>
+        <code>JSD2</code>
+        <cursus>IR</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SE">
+        <nom>Fiabilite des systemes embarques</nom>
+        <code>Jf42</code>
+        <cursus>AE</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Paradigm">
+        <nom>Paradigme de programmation</nom>
+        <code>DLP48</code>
+        <cursus>AE</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Alge">
+        <nom>Algebre</nom>
+        <code>DEV5</code>
+        <cursus>GMM</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jean</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Patrick</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Transmi">
+        <nom>Techniques et systemes de transmission</nom>
+        <code>MKDS478</code>
+        <cursus>GP</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ResMob">
+        <nom>Reseau mobile et sans fil</nom>
+        <code>IOF53</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Gestion">
+        <nom>SIMGEST</nom>
+        <code>LDSK78J</code>
+        <cursus>GMM</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IS">
+        <nom>Internet et securite</nom>
+        <code>JBFH33</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Mode">
+        <nom>Modelisation</nom>
+        <code>MOD33</code>
+        <cursus>AE</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BDD">
+        <nom>Donnee et information</nom>
+        <code>ZDD33</code>
+        <cursus>IMACS</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AN">
+        <nom>Analyse numerique</nom>
+        <code>AN23</code>
+        <cursus>GMM</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Entre">
+        <nom>Connaissances de l'entreprise</nom>
+        <code>CGE31</code>
+        <cursus>GP</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Stat">
+        <nom>Statistique</nom>
+        <code>MIMT31</code>
+        <cursus>AE</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Katherine</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lina</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Gestion">
+        <nom>SIMGEST</nom>
+        <code>LDSK78J</code>
+        <cursus>GMM</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Realtime">
+        <nom>Systeme conccurents et Temps reel</nom>
+        <code>RTR11</code>
+        <cursus>IMACS</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Projtuto">
+        <nom>Projets tutore et conduite de projet</nom>
+        <code>PRO54</code>
+        <cursus>GP</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Transmi">
+        <nom>Techniques et systemes de transmission</nom>
+        <code>MKDS478</code>
+        <cursus>GP</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lisa</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Manta</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="TRE">
+        <nom>Technique de recherche d'emploi</nom>
+        <code>TRERE33</code>
+        <cursus>GP</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CompMath">
+        <nom>Complement de Mathematiques</nom>
+        <code>COMMA33</code>
+        <cursus>AE</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="topo">
+        <nom>Topologie</nom>
+        <code>TSK33</code>
+        <cursus>IR</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Ph">
+        <nom>Philosophie</nom>
+        <code>A56KC</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Cg">
+        <nom>Chimie generale</nom>
+        <code>AD32</code>
+        <cursus>GP</cursus>
+        <annee>1</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Michel</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jacques</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Ph">
+        <nom>Philosophie</nom>
+        <code>A56KC</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RO">
+        <nom>Recherche operationnelle</nom>
+        <code>kro33</code>
+        <cursus>GMM</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BDD">
+        <nom>Donnee et information</nom>
+        <code>ZDD33</code>
+        <cursus>IMACS</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Algo">
+        <nom>Algorithmique</nom>
+        <code>A12MIF</code>
+        <cursus>MIC</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="TRE">
+        <nom>Technique de recherche d'emploi</nom>
+        <code>TRERE33</code>
+        <cursus>GP</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CompMath">
+        <nom>Complement de Mathematiques</nom>
+        <code>COMMA33</code>
+        <cursus>AE</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="topo">
+        <nom>Topologie</nom>
+        <code>TSK33</code>
+        <cursus>IR</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Cg">
+        <nom>Chimie generale</nom>
+        <code>AD32</code>
+        <cursus>GP</cursus>
+        <annee>1</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Paul</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Paulotiae</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Mt">
+        <nom>Materiaux</nom>
+        <code>ART</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Ang">
+        <nom>Anglais</nom>
+        <code>A9AN</code>
+        <cursus>IR</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Esp">
+        <nom>Espagnol</nom>
+        <code>A6ES6</code>
+        <cursus>GP</cursus>
+        <annee>1</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Alge">
+        <nom>Algebre</nom>
+        <code>DEV5</code>
+        <cursus>GMM</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Electromag">
+        <nom>Electromagnetisme</nom>
+        <code>ELM48</code>
+        <cursus>IR</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Management">
+        <nom>Aptitudes Manageriales</nom>
+        <code>AM42</code>
+        <cursus>IMACS</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Auto">
+        <nom>Automatisme</nom>
+        <code>A12MIAU</code>
+        <cursus>IMACS</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AN">
+        <nom>Analyse numerique</nom>
+        <code>AN23</code>
+        <cursus>GMM</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="TRE">
+        <nom>Technique de recherche d'emploi</nom>
+        <code>TRERE33</code>
+        <cursus>GP</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Remi</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Riliette</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Transmi">
+        <nom>Techniques et systemes de transmission</nom>
+        <code>MKDS478</code>
+        <cursus>GP</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Projtuto">
+        <nom>Projets tutore et conduite de projet</nom>
+        <code>PRO54</code>
+        <cursus>GP</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Interco">
+        <nom>Interconnexion des reseaux</nom>
+        <code>JDP792</code>
+        <cursus>IR</cursus>
+        <annee>4</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SE">
+        <nom>Fiabilite des systemes embarques</nom>
+        <code>Jf42</code>
+        <cursus>AE</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Paradigm">
+        <nom>Paradigme de programmation</nom>
+        <code>DLP48</code>
+        <cursus>AE</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IMod">
+        <nom>Ingenierie des modeles</nom>
+        <code>RD7</code>
+        <cursus>IMACS</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ProcDev">
+        <nom>Processus de developpement logiciel</nom>
+        <code>PDL45</code>
+        <cursus>GMM</cursus>
+        <annee>5</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+  <enseignant>
+    <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">René</nom>
+    <prenom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pierre</prenom>
+    <matieres>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Cg">
+        <nom>Chimie generale</nom>
+        <code>AD32</code>
+        <cursus>GP</cursus>
+        <annee>1</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Th">
+        <nom>Thermo</nom>
+        <code>TH33</code>
+        <cursus>GP</cursus>
+        <annee>3</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Esp">
+        <nom>Espagnol</nom>
+        <code>A6ES6</code>
+        <cursus>GP</cursus>
+        <annee>1</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Management">
+        <nom>Aptitudes Manageriales</nom>
+        <code>AM42</code>
+        <cursus>IMACS</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PPI">
+        <nom>Projet personnel individualise</nom>
+        <code>A12CC</code>
+        <cursus>MIC</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Stat">
+        <nom>Statistique</nom>
+        <code>MIMT31</code>
+        <cursus>AE</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Auto">
+        <nom>Automatisme</nom>
+        <code>A12MIAU</code>
+        <cursus>IMACS</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+      <matiere_uf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SYSEC">
+        <nom>Systemes electroniques et communicants</nom>
+        <code>SEC5</code>
+        <cursus>IR</cursus>
+        <annee>2</annee>
+      </matiere_uf>
+    </matieres>
+  </enseignant>
+</resultat>
