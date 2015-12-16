@@ -38,12 +38,9 @@
 					<xsl:sort select="." />
 					</xsl:apply-templates>
 				</TABLE>
-				
 			</BODY>
 		</HTML>
 	</xsl:template>
-
-
 <!-- Template qui donne la structure de notre page-->
 	<xsl:template match="enseignant">
 		<TR>
@@ -57,9 +54,9 @@
 	<xsl:template match="annee">
 	<TD style="text-align:center;">
 		<TABLE border="1" cellspacing="0" cellpadding="2">
-			<TD colspan="5">
+			
 				<span style="font-size:14pt; font-weight:bold;"> <xsl:value-of select="text()"/> eme année</span><xsl:apply-templates/>
-			</TD>
+			
 		</TABLE>
 	</TD>
 	</xsl:template>

@@ -30,7 +30,7 @@
 </style>
 		</HEAD>
 			<body><H1 style="text-align: center;">Enseignant par Cursus    <small>enseignantParCursus.xml</small> </H1>
-			
+			<br/><br/><br/><br/><br/><br/><br/>
 				<TABLE>
 				
 					<xsl:apply-templates select="resultat/cursus">
@@ -44,9 +44,7 @@
 <xsl:template match="cursus">
 	<TD style="text-align:center;">
 		<TABLE border="1" cellspacing="0" cellpadding="2">
-			<TD colspan="5">
 				<span style="font-size:14pt; font-weight:bold;"> Enseignants en  <xsl:value-of select="text()"/></span><xsl:apply-templates/>
-			</TD>
 		</TABLE>
 	</TD>
 	</xsl:template>
