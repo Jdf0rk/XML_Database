@@ -25,16 +25,20 @@
 
 			<!-- Latest compiled and minified JavaScript -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<style type="text/css">
+   body { background: #F3E2A9 !important; }
+</style>
 		</HEAD>
-			<BODY><H1> enseignantParAnnee.xml </H1>
+			<BODY><H1 style="text-align: center;">Enseignant pour chaque année    <small>enseignantParAnnee.xml</small> </H1>
 			
-				<TABLE border="1" cellspacing="0" cellpadding="2">
-				
+				<br/><br/><br/><br/><br/><br/><br/>
+				<TABLE>
 					<xsl:apply-templates select="resultat/annee">
 					<xsl:sort select="." />
 					</xsl:apply-templates>
-				
 				</TABLE>
+				
 			</BODY>
 		</HTML>
 	</xsl:template>
@@ -50,51 +54,46 @@
 			<xsl:apply-templates select="matieres"/>
 		</TR>
 	</xsl:template>
-	
+	<xsl:template match="annee">
+	<TD style="text-align:center;">
+		<TABLE border="1" cellspacing="0" cellpadding="2">
+			<TD colspan="5">
+				<span style="font-size:14pt; font-weight:bold;"> <xsl:value-of select="text()"/> eme année</span><xsl:apply-templates/>
+			</TD>
+		</TABLE>
+	</TD>
+	</xsl:template>
 <!-- Les templates pour recuperer chaque champ -->
+	<xsl:template match="annee/text()" />
 	<xsl:template match="nom">
-		<TD STYLE="font-size:14pt font-family:serif">
+		<TD STYLE="font-size:13pt; font-family:serif; text-align:center; font-weight:bold;">
 			<xsl:apply-templates />
 		</TD>
 	</xsl:template>
 	
 	<xsl:template match="prenom">
-		<TD> <xsl:apply-templates /> </TD>
+		<TD style="text-align: center; font-size:11pt; font-family:serif;"> <xsl:apply-templates /></TD>
 	</xsl:template>
 
 	<xsl:template match="datenaissance">
-		<TD> <xsl:apply-templates /> </TD>
+		<TD style="text-align: center;"> <xsl:apply-templates /> </TD>
 	</xsl:template>
 
 	<xsl:template match="grade">
-		<TD> <xsl:apply-templates /> </TD>
+		<TD style="text-align: center;"> 
+		<xsl:choose>
+			<xsl:when test="text()='Enseignant'"><span style="color:red"><xsl:value-of select="text()"/></span></xsl:when>
+			<xsl:otherwise><span style="color:blue"><xsl:value-of select="text()"/></span></xsl:otherwise>
+		</xsl:choose>
+		</TD>
 	</xsl:template>
 	
 	<xsl:template match="matieres">
-		<TD> 
+		<TD style="text-align: center;"> 
 			<xsl:for-each select="matiere">
-				<li> <xsl:value-of select="@id" /> </li>
+				<li style="list-style-type:none;"> <xsl:value-of select="@id" /> </li>
 			</xsl:for-each>
 		</TD>
 	
 	</xsl:template>
-	<!--
-	<xsl:template name="affichermatieres">
-        <xsl:param name="matieres" />
-        <ul>
-            <xsl:for-each select="$matieres/matiere">
-                <xsl:call-template name="affichermatiere">
-                    <xsl:with-param name="matiere" select="." />
-                </xsl:call-template>
-            </xsl:for-each>
-        </ul>
-    </xsl:template>
-
-    <xsl:template name="affichermatiere">
-        <xsl:param name="matiere" />
-        <li>
-            <xsl:value-of select="$matiere/@id" /> 
-        </li>
-    </xsl:template>
-	-->
 </xsl:stylesheet>
