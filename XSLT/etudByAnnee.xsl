@@ -25,15 +25,18 @@
 
 			<!-- Latest compiled and minified JavaScript -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<style type="text/css">
+   body { background: #F3E2A9 !important; }
+</style>
 		</HEAD>
-			<BODY><H1> etudByAnnee.xml </H1>
+			<BODY><H1 style="text-align:center;">Liste des étudiants par année <small>etudByAnnee.xml</small> </H1>
 			
-				<TABLE border="1" cellspacing="0" cellpadding="2">
+				<br/><br/><br/><br/><br/><br/><br/>
+				<TABLE>
 				
 					<xsl:apply-templates select="resultat/annee">
 					<xsl:sort select="." />
 					</xsl:apply-templates>
-				
 				</TABLE>
 			</BODY>
 		</HTML>
@@ -54,23 +57,30 @@
 		</TR>
 	</xsl:template>
 	
+<xsl:template match="resultat/annee">
+	<TD style="text-align:center;">
+		<TABLE border="1" cellspacing="0" cellpadding="2">
+			
+				<span style="font-size:14pt; font-weight:bold;"> <xsl:value-of select="text()"/> eme année</span><xsl:apply-templates/>
+			
+		</TABLE>
+	</TD>
+	</xsl:template>
 <!-- Les templates pour recuperer chaque champ -->
+	<xsl:template match="annee/text()" />
+
 	<xsl:template match="nom">
-		<TD STYLE="font-size:14pt font-family:serif">
+		<TD STYLE="font-size:13pt; font-family:serif; text-align:center; font-weight:bold;">
 			<xsl:apply-templates />
 		</TD>
 	</xsl:template>
 	
 	<xsl:template match="prenom">
-		<TD> <xsl:apply-templates /> </TD>
+		<TD style="text-align: center; font-size:11pt; font-family:serif;"> <xsl:apply-templates /></TD>
 	</xsl:template>
 
 	<xsl:template match="datenaissance">
-		<TD> <xsl:apply-templates /> </TD>
-	</xsl:template>
-
-	<xsl:template match="annee">
-		<TD> <xsl:apply-templates /> </TD>
+		<TD style="text-align: center;"> <xsl:apply-templates /> </TD>
 	</xsl:template>
 	
 	<xsl:template match="cursus">
@@ -84,7 +94,7 @@
 	<xsl:template match="matieres">
 		<TD> 
 			<xsl:for-each select="matiere">
-				<li> <xsl:value-of select="@id" /> </li>
+				<li style="list-style-type:none;"> <xsl:value-of select="@id" /> </li>
 			</xsl:for-each>
 		</TD>
 	</xsl:template>
@@ -92,24 +102,32 @@
 	<xsl:template match="notes">
 		<TD> 
 			<xsl:for-each select="matiere_noteS1">
-				<li> id:<xsl:value-of select="@id_matiere" /> </li>
+				<li style="list-style-type:none;"> 
+<xsl:value-of select="@id_matiere" /> 
+				</li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
 			<xsl:for-each select="matiere_noteS1">
-				<li> noteS1:<xsl:value-of select="@noteS1" /> </li>
+				<li style="list-style-type:none;"> noteS1:<span style="color:green"><xsl:value-of select="@noteS1"/></span></li>
 			</xsl:for-each>
 		</TD>	
 		<TD> 
 			<xsl:for-each select="matiere_noteS2">
-				<li> id:<xsl:value-of select="@id_matiere" /> </li>
+				<li style="list-style-type:none;"><xsl:value-of select="@id_matiere" /> </li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
 			<xsl:for-each select="matiere_noteS2">
-				<li> noteS2:<xsl:value-of select="@noteS2" /> </li>
+				<li style="list-style-type:none;"> noteS2:<span style="color:red"><xsl:value-of select="@noteS1"/></span></li>
 			</xsl:for-each>
 		</TD>	
-			
+		<TD>
+			<xsl:for-each select="matiere_noteS2">
+				<li style="list-style-type:none;"> noteS2:<xsl:choose>
+			<xsl:when test="number(@noteS2) &lt; 10"><span style="color:red"><xsl:value-of select="@noteS2"/></span></xsl:when>
+			<xsl:otherwise><span style="color:green"><xsl:value-of select="@noteS2"/></span></xsl:otherwise></xsl:choose></li>
+			</xsl:for-each>
+		</TD>	
 	</xsl:template>
 </xsl:stylesheet>
