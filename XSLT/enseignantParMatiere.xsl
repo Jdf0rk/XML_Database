@@ -32,13 +32,13 @@
 			<BODY><H1 style="text-align: center;"> Enseignant par matière  <small>enseignantParMatiere.xml</small> </H1>
 			
 				<br/><br/><br/><br/><br/><br/><br/>
-				<TABLE>
+				 <center><TABLE>
 				
 					<xsl:apply-templates select="resultat/matiere">
 					<xsl:sort select="." />
 					</xsl:apply-templates>
 				
-				</TABLE>
+				</TABLE> </center>
 			</BODY>
 		</HTML>
 	</xsl:template>
@@ -53,13 +53,13 @@
 		</TR>
 	</xsl:template>
 	<xsl:template match="matiere">
-	<TD style="text-align:center;" colspan="5">
+	<TR style="text-align:center;" colspan="5">
 		<TABLE border="1" cellspacing="0" cellpadding="2">
 				<td>Nom</td><td>Prenom</td><td>Date de Naissance</td><td>Grade</td><td>Matières Enseignées</td>
 <span style="font-size:14pt; font-weight:bold;"><xsl:value-of select="current()/nom/text()"/></span><xsl:apply-templates/>
 
 		</TABLE>
-	</TD>
+	</TR>
 	</xsl:template>
 <xsl:template match="matiere/nom/text()"/>
 <!-- Les templates pour recuperer chaque champ -->

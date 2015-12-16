@@ -32,12 +32,12 @@
 			<BODY><H1 style="text-align:center;">Liste des étudiants par Cursus <small>etudByCursus.xml</small> </H1>
 			
 				<br/><br/><br/><br/><br/><br/><br/>
-				<TABLE>
+				 <center><TABLE>
 					<xsl:apply-templates select="resultat/groupe">
 					<xsl:sort select="." />
 					</xsl:apply-templates>
 				
-				</TABLE>
+				</TABLE> </center>
 			</BODY>
 		</HTML>
 	</xsl:template>
@@ -57,14 +57,14 @@
 		</TR>
 	</xsl:template>
 	<xsl:template match="resultat/groupe">
-	<TD style="text-align:center;">
+	<TR style="text-align:center;">
 		<TABLE border="1" cellspacing="0" cellpadding="2">
 			
 				<td>Nom</td><td>Prenom</td><td>Date de Naissance</td><td>Annee</td><td>Groupe</td><td>Matières</td><td>Matières notées S1</td><td>Notes S1</td><td>Matières notées S2</td><td colspan="2">Notes S2</td>
 				<span style="font-size:14pt; font-weight:bold;">Promo <xsl:value-of select="text()"/></span><xsl:apply-templates/>
 			
 		</TABLE>
-	</TD>
+	</TR>
 	</xsl:template>
 <!-- Les templates pour recuperer chaque champ -->
 	<xsl:template match="resultat/groupe/text()" />

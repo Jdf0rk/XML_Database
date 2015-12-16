@@ -28,13 +28,13 @@
 		</HEAD>
 			<BODY><H1> etudDettes.xml </H1>
 			
-				<TABLE border="1" cellspacing="0" cellpadding="2">
+				 <center><TABLE border="1" cellspacing="0" cellpadding="2">
 				
 					<xsl:apply-templates select="resultat/etudiant">
 					<xsl:sort select="nom" />
 					</xsl:apply-templates>
 				
-				</TABLE>
+				</TABLE> </center>
 			</BODY>
 		</HTML>
 	</xsl:template>

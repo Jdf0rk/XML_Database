@@ -33,11 +33,11 @@
 			<BODY><H1 style="text-align: center;">Enseignant pour chaque année    <small>enseignantParAnnee.xml</small> </H1>
 			
 				<br/><br/><br/><br/><br/><br/><br/>
-				<TABLE>
+				 <center><TABLE>
 					<xsl:apply-templates select="resultat/annee">
 					<xsl:sort select="." />
 					</xsl:apply-templates>
-				</TABLE>
+				</TABLE> </center>
 			</BODY>
 		</HTML>
 	</xsl:template>
@@ -52,13 +52,13 @@
 		</TR>
 	</xsl:template>
 	<xsl:template match="annee">
-	<TD style="text-align:center;">
+	<TR style="text-align:center;">
 		<TABLE border="1" cellspacing="0" cellpadding="2">
 			<td>Nom</td><td>Prenom</td><td>Date de Naissance</td><td>Grade</td><td>Matières Enseignées</td>
 				<span style="font-size:14pt; font-weight:bold;"> <xsl:value-of select="text()"/> eme année</span><xsl:apply-templates/>
 			
 		</TABLE>
-	</TD>
+	</TR>
 	</xsl:template>
 <!-- Les templates pour recuperer chaque champ -->
 	<xsl:template match="annee/text()" />
