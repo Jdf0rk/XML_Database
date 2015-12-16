@@ -25,17 +25,19 @@
 
 			<!-- Latest compiled and minified JavaScript -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<style type="text/css">
+   body { background: #F3E2A9 !important; }
+</style>
 		</HEAD>
-		<BODY>
-			<H1> etudDettesPlusDe2Dettes.xml </H1>
+			<BODY><H1 style="text-align:center;">Liste des étudiants qui ont plus de 2 dettes <small>etud2Dettes.xml</small> </H1>
 			
-				<TABLE border="1" cellspacing="0" cellpadding="2">
-				
+				 <center><TABLE border="1" cellspacing="0" cellpadding="2">
+				<span style="font-size:14pt; font-family:serif;"><td>Nom</td><td>Prenom</td><td>Nombre de dettes</td><td>Matières</td><td>Note S1</td><td>Note S2</td></span>
 					<xsl:apply-templates select="resultat/etudiant">
 					<xsl:sort select="nom" />
 					</xsl:apply-templates>
 				
-				</TABLE>
+				</TABLE> </center>
 			</BODY>
 		</HTML>
 	</xsl:template>
@@ -53,7 +55,7 @@
 	
 <!-- Les templates pour recuperer chaque champ -->
 	<xsl:template match="nom">
-		<TD STYLE="font-size:14pt font-family:serif">
+		<TD STYLE="font-size:12pt;">
 			<xsl:apply-templates />
 		</TD>
 	</xsl:template>
@@ -63,24 +65,24 @@
 	</xsl:template>
 
 	<xsl:template match="nbr_dettes">
-		<TD> <xsl:apply-templates /> </TD>
+		<TD style="text-align:center;"> <xsl:apply-templates /> </TD>
 	</xsl:template>
 
 	
 	<xsl:template match="dettes">
 		<TD> 
 			<xsl:for-each select="matiere_noteS2">
-				<li> id:<xsl:value-of select="@id_matiere" /> </li>
+				<li style="list-style-type:none;">  id:<xsl:value-of select="@id_matiere" /> </li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
 			<xsl:for-each select="matiere_noteS2">
-				<li> noteS1:<xsl:value-of select="@noteS1" /> </li>
+				<li style="list-style-type:none;">  noteS1:<span style="color:red"><xsl:value-of select="@noteS1" /> </span></li>
 			</xsl:for-each>
 		</TD>		
 		<TD>
 			<xsl:for-each select="matiere_noteS2">
-				<li> noteS2:<xsl:value-of select="@noteS2" /> </li>
+				<li style="list-style-type:none;">  noteS2:<span style="color:red"><xsl:value-of select="@noteS2" /> </span></li>
 			</xsl:for-each>
 		</TD>	
 			
