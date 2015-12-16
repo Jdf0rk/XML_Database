@@ -1,3 +1,4 @@
+<?xml-stylesheet type="text/xsl" href= "../XSLT/moyenneS1ParEtudiantParAnnee.xsl" ?>
 <resultat>
   <etudiant>
     <nom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Arthour</nom>

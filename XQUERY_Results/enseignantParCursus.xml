@@ -1,3 +1,4 @@
+<?xml-stylesheet type="text/xsl" href= "../XSLT/enseignantParCursus.xsl" ?>
 <resultat>
   <cursus>AE<liste_enseignants>
       <enseignant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="LM">
