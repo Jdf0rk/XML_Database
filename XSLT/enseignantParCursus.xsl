@@ -31,7 +31,7 @@
 			
 				<TABLE border="1" cellspacing="0" cellpadding="2">
 				
-					<xsl:apply-templates select="resultat/Cursus">
+					<xsl:apply-templates select="resultat/cursus">
 					<xsl:sort select="." />
 					</xsl:apply-templates>
 				
