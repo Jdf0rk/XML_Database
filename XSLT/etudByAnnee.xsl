@@ -60,7 +60,7 @@
 <xsl:template match="resultat/annee">
 	<TD style="text-align:center;">
 		<TABLE border="1" cellspacing="0" cellpadding="2">
-			
+			<td>Nom</td><td>Prenom</td><td>Date de Naissance</td><td>Cursus</td><td>Groupe</td><td>Matières</td><td>Matières notées S1</td><td>Notes S1</td><td>Matières notées S2</td><td colspan="2">Notes S2</td>
 				<span style="font-size:14pt; font-weight:bold;"> <xsl:value-of select="text()"/> eme année</span><xsl:apply-templates/>
 			
 		</TABLE>
