@@ -30,7 +30,7 @@
    body { background: #F3E2A9 !important; }
 </style>
 		</HEAD>
-			<BODY><div class="container">
+			<BODY><nav class="navbar navbar-default navbar-fixed-top"><div class="container">
     <ul class="nav navbar-nav">
 		<li><a href="../HTML/enseignantParAnnee.html">Ens Ann</a></li>
 		<li><a href="../HTML/enseignantParCursus.html">Ens Cur</a></li>

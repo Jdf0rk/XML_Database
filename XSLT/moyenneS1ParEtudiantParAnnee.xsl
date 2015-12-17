@@ -29,7 +29,8 @@
    body { background: #F3E2A9 !important; }
 </style>
 		</HEAD>
-<BODY><div class="container">
+<BODY><nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
     <ul class="nav navbar-nav">
 		<li><a href="../HTML/enseignantParAnnee.html">Ens Ann</a></li>
 		<li><a href="../HTML/enseignantParCursus.html">Ens Cur</a></li>
@@ -44,7 +45,8 @@
 		<li><a href="../HTML/moyenneS1ParEtudiantParAnnee.html">Moy S1 etud</a></li>
 	</ul>
   </div>
-</nav><br/><br/><br/><br/><br/><br/><H1 style="text-align:center;">Moyenne par étudiant au 1er semestre chaque année <small>moyenneS1ParEtudiantParAnnee.xml</small> </H1>	
+</nav><br/><br/><br/><br/><br/><br/>
+<H1 style="text-align:center;">Moyenne par étudiant au 1er semestre chaque année <small>moyenneS1ParEtudiantParAnnee.xml</small> </H1>	
 
 
 				<br/><br/><br/><br/><br/><br/><br/>
