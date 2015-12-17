@@ -34,7 +34,7 @@
 
 				<br/><br/><br/><br/><br/><br/><br/>
 				 <center><TABLE border="1" cellspacing="0" cellpadding="2" class="table-hover">
-				
+				<tr><td>Nom</td><td>Prenom</td><td>Annee</td><td>Moyenne</td></tr>
 					<xsl:apply-templates select="resultat/etudiant">
 					<xsl:sort select="nom" />
 					</xsl:apply-templates>
@@ -69,14 +69,14 @@
 	
 	<xsl:template match="moyenne_S1">
 		<TD> 
-			<!-- TODO -->
+		
 			<xsl:for-each select="annee">
-				<li style="list-style-type:none;">annee:<xsl:value-of select="." /> </li>
+				<li style="list-style-type:none;"><xsl:value-of select="text()" /> </li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
 			<xsl:for-each select="annee">
-				<li style="list-style-type:none;"> moyenne:<xsl:choose>
+				<li style="list-style-type:none;"> <xsl:choose>
 			<xsl:when test="number(moyenne) &lt; 10"><span style="color:red"><xsl:value-of select="moyenne"/></span></xsl:when>
 			<xsl:otherwise><span style="color:green"><xsl:value-of select="moyenne"/></span></xsl:otherwise></xsl:choose> </li>
 			</xsl:for-each>
