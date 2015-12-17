@@ -29,7 +29,22 @@
    body { background: #F3E2A9 !important; }
 </style>
 		</HEAD>
-			<BODY><H1 style="text-align:center;">Liste des étudiants qui ont des dettes <small>etudDettes.xml</small> </H1>
+			<BODY><div class="container">
+    <ul class="nav navbar-nav">
+		<li><a href="../HTML/enseignantParAnnee.html">Ens Ann</a></li>
+		<li><a href="../HTML/enseignantParCursus.html">Ens Cur</a></li>
+		<li><a href="../HTML/enseignantParMatiere.html">Ens Mat</a></li>
+		<li><a href="../HTML/etudByAnnee.html">Etud Ann</a></li>
+		<li><a href="../HTML/etudByCursus.html">Etud Cur</a></li>
+		<li><a href="../HTML/etudByGroup.html">Etud Group</a></li>
+		<li><a href="../HTML/etudDettes.html">Etud Dette</a></li>
+		<li><a href="../HTML/etudPlusDe2Dettes.html">Etud +2 Dettes</a></li>
+		<li><a href="../HTML/matiereParEnseignant.html">Mat par Ens</a></li>
+		<li><a href="../HTML/moyenneParMatiere.html">Moy Mat</a></li>
+		<li><a href="../HTML/moyenneS1ParEtudiantParAnnee.html">Moy S1 etud</a></li>
+	</ul>
+  </div>
+</nav><br/><br/><br/><br/><br/><br/><H1 style="text-align:center;">Liste des étudiants qui ont des dettes <small>etudDettes.xml</small> </H1>
 			
 				 <center><TABLE border="1" cellspacing="0" cellpadding="2" class="table-hover">
 				<span style="font-size:14pt; font-family:serif;"><td>Nom</td><td>Prenom</td><td>Nombre de dettes</td><td>Matières</td><td>Note S1</td><td>Note S2</td></span>

@@ -29,7 +29,22 @@
    body { background: #F3E2A9 !important; }
 </style>
 		</HEAD>
-			<BODY><H1 style="text-align:center;">Liste des étudiants par Cursus <small>etudByCursus.xml</small> </H1>
+			<BODY><div class="container">
+    <ul class="nav navbar-nav">
+		<li><a href="../HTML/enseignantParAnnee.html">Ens Ann</a></li>
+		<li><a href="../HTML/enseignantParCursus.html">Ens Cur</a></li>
+		<li><a href="../HTML/enseignantParMatiere.html">Ens Mat</a></li>
+		<li><a href="../HTML/etudByAnnee.html">Etud Ann</a></li>
+		<li><a href="../HTML/etudByCursus.html">Etud Cur</a></li>
+		<li><a href="../HTML/etudByGroup.html">Etud Group</a></li>
+		<li><a href="../HTML/etudDettes.html">Etud Dette</a></li>
+		<li><a href="../HTML/etudPlusDe2Dettes.html">Etud +2 Dettes</a></li>
+		<li><a href="../HTML/matiereParEnseignant.html">Mat par Ens</a></li>
+		<li><a href="../HTML/moyenneParMatiere.html">Moy Mat</a></li>
+		<li><a href="../HTML/moyenneS1ParEtudiantParAnnee.html">Moy S1 etud</a></li>
+	</ul>
+  </div>
+</nav><br/><br/><br/><br/><br/><br/><H1 style="text-align:center;">Liste des étudiants par Cursus <small>etudByCursus.xml</small> </H1>
 			
 				<br/><br/><br/><br/><br/><br/><br/>
 				 <center><TABLE class="table-hover">
