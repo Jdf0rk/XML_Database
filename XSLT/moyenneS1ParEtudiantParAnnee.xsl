@@ -33,7 +33,7 @@
 
 
 				<br/><br/><br/><br/><br/><br/><br/>
-				 <center><TABLE border="1" cellspacing="0" cellpadding="2">
+				 <center><TABLE border="1" cellspacing="0" cellpadding="2" class="table table-hover">
 				
 					<xsl:apply-templates select="resultat/etudiant">
 					<xsl:sort select="nom" />

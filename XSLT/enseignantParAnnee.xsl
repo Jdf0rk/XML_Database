@@ -53,7 +53,7 @@
 	</xsl:template>
 	<xsl:template match="annee">
 	<TR style="text-align:center;">
-		<TABLE border="1" cellspacing="0" cellpadding="2">
+		<TABLE border="1" cellspacing="0" cellpadding="2" class="table table-hover">
 			<td>Nom</td><td>Prenom</td><td>Date de Naissance</td><td>Grade</td><td>Matières Enseignées</td>
 				<span style="font-size:14pt; font-weight:bold;"> <xsl:value-of select="text()"/> eme année</span><xsl:apply-templates/>
 			

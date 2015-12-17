@@ -34,7 +34,7 @@
 				<BODY><H1 style="text-align:center;">Liste des matières par enseignant <small>matiereParEnseignant.xml</small> </H1>
 
 				<br/><br/><br/><br/><br/><br/><br/>
-				<center><TABLE border="1" cellspacing="0" cellpadding="2">
+				<center><TABLE border="1" cellspacing="0" cellpadding="2" class="table table-hover">
 					<TR>
 						<td>Nom</td><td>Prenom</td><td>ID matière</td><td>Nom matière</td><td>Code</td><td>Cursus</td><td>Annee</td>
 					</TR>

@@ -32,7 +32,7 @@
 			<BODY><H1 style="text-align:center;">Liste des étudiants par Cursus <small>etudByCursus.xml</small> </H1>
 			
 				<br/><br/><br/><br/><br/><br/><br/>
-				 <center><TABLE>
+				 <center><TABLE class="table table-hover">
 					<xsl:apply-templates select="resultat/groupe">
 					<xsl:sort select="." />
 					</xsl:apply-templates>
