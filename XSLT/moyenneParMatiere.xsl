@@ -46,8 +46,9 @@
   </div>
 </nav><br/><br/><br/><br/><br/><br/><H1 style="text-align:center;">Liste des moyennes par matière <small>moyenneParMatiere.xml</small> </H1>			
 				<br/><br/><br/>
-				<center><TABLE border="1" cellspacing="0" cellpadding="2" class="table-hover">
-				
+				<center><TABLE border="1" cellspacing="0" cellpadding="2" class="table-hover" style="text-align:center;">
+				<tr><td>Matiere</td><td>Moyenne</td><td>Minimum</td><td>Maximum</td>
+<td>Nombre Admis S1</td><td>Nombre Refus S1</td><td>Nombre total S1</td><td>Nombre Admis S2</td><td>Nombre Refus S2</td></tr>
 					<xsl:apply-templates select="resultat/matiere">
 					<xsl:sort select="nom" />
 					</xsl:apply-templates>
@@ -98,12 +99,16 @@
 		</TD>	
 		<TD>
 			<xsl:for-each select="resultatS1">
-				<li style="list-style-type:none;"> nbr_admis:<xsl:value-of select="nbr_admis" /> </li>
+				<li style="list-style-type:none;"> nbr_admis:<xsl:choose>
+					<xsl:when test="number(nbr_admis) &lt; 1"><span style="color:red"><xsl:value-of select="nbr_admis"/></span></xsl:when>
+					<xsl:otherwise><span style="color:green"><xsl:value-of select="nbr_admis"/></span></xsl:otherwise></xsl:choose> </li>
 			</xsl:for-each>
 		</TD>
 		<TD> 
 			<xsl:for-each select="resultatS1">
-				<li style="list-style-type:none;"> nbr_refus:<xsl:value-of select="nbr_refus" /> </li>
+				<li style="list-style-type:none;"> nbr_refus:<xsl:choose>
+					<xsl:when test="number(nbr_refus) &gt; 0"><span style="color:red"><xsl:value-of select="nbr_refus"/></span></xsl:when>
+					<xsl:otherwise><span style="color:green"><xsl:value-of select="nbr_refus"/></span></xsl:otherwise></xsl:choose>  </li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
@@ -113,12 +118,16 @@
 		</TD>	
 		<TD> 
 			<xsl:for-each select="resultatS2">
-				<li style="list-style-type:none;"> nbr_admis:<xsl:value-of select="nbr_admis" /> </li>
+				<li style="list-style-type:none;"> nbr_admis:<xsl:choose>
+					<xsl:when test="number(nbr_admis) &lt; 1"><span style="color:red"><xsl:value-of select="nbr_admis"/></span></xsl:when>
+					<xsl:otherwise><span style="color:green"><xsl:value-of select="nbr_admis"/></span></xsl:otherwise></xsl:choose> </li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
 			<xsl:for-each select="resultatS2">
-				<li style="list-style-type:none;"> nbr_refus:<xsl:value-of select="nbr_refus" /> </li>
+				<li style="list-style-type:none;"> nbr_refus:<xsl:choose>
+					<xsl:when test="number(nbr_refus) &gt; 0"><span style="color:red"><xsl:value-of select="nbr_refus"/></span></xsl:when>
+					<xsl:otherwise><span style="color:green"><xsl:value-of select="nbr_refus"/></span></xsl:otherwise></xsl:choose> </li>
 			</xsl:for-each>
 		</TD>					
 	</xsl:template>
