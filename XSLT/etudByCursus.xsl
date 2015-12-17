@@ -46,7 +46,7 @@
   </div>
 </nav><br/><br/><br/><br/><br/><br/><H1 style="text-align:center;">Liste des étudiants par Cursus <small>etudByCursus.xml</small> </H1>
 			
-				<br/><br/><br/><br/><br/><br/><br/>
+				<br/><br/><br/>
 				 <center><TABLE class="table-hover">
 					<xsl:apply-templates select="resultat/groupe">
 					<xsl:sort select="." />

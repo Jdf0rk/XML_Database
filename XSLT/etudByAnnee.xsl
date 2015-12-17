@@ -47,7 +47,7 @@
   </div>
 </nav><br/><br/><br/><br/><br/><br/><H1 style="text-align:center;">Liste des étudiants par année <small>etudByAnnee.xml</small> </H1>
 			
-				<br/><br/><br/><br/>
+				<br/><br/><br/>
 				 <center><TABLE>
 				
 					<xsl:apply-templates select="resultat/annee">

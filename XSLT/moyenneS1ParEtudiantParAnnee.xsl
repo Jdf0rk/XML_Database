@@ -49,7 +49,7 @@
 <H1 style="text-align:center;">Moyenne par étudiant au 1er semestre chaque année <small>moyenneS1ParEtudiantParAnnee.xml</small> </H1>	
 
 
-				<br/><br/><br/><br/><br/><br/><br/>
+				<br/><br/><br/>
 				 <center><TABLE border="1" cellspacing="0" cellpadding="2" class="table-hover">
 				<tr><td>Nom</td><td>Prenom</td><td>Annee</td><td>Moyenne</td></tr>
 					<xsl:apply-templates select="resultat/etudiant">

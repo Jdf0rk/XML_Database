@@ -45,7 +45,7 @@
 	</ul>
   </div>
 </nav><br/><br/><br/><br/><br/><br/><H1 style="text-align:center;">Liste des moyennes par matière <small>moyenneParMatiere.xml</small> </H1>			
-				<br/><br/><br/><br/><br/><br/><br/>
+				<br/><br/><br/>
 				<center><TABLE border="1" cellspacing="0" cellpadding="2" class="table-hover">
 				
 					<xsl:apply-templates select="resultat/matiere">

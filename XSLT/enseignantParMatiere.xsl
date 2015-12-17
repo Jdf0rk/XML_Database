@@ -46,7 +46,7 @@
   </div>
 </nav><br/><br/><br/><br/><br/><br/><H1 style="text-align: center;"> Enseignant par matière  <small>enseignantParMatiere.xml</small> </H1>
 			
-				<br/><br/><br/><br/><br/><br/><br/>
+				<br/><br/><br/>
 				 <center><TABLE>
 				
 					<xsl:apply-templates select="resultat/matiere">
