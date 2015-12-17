@@ -25,16 +25,19 @@
 
 			<!-- Latest compiled and minified JavaScript -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+			<style type="text/css">
+						body { background: #F3E2A9 !important; }
+					</style>
 		</HEAD>
-			<BODY><H1> matiereParMatiere.xml </H1>
-			
-				<TABLE border="1" cellspacing="0" cellpadding="2">
+<BODY><H1 style="text-align:center;">Liste des moyennes par matière <small>moyenneParMatiere.xml</small> </H1>			
+				<br/><br/><br/><br/><br/><br/><br/>
+				<center><TABLE border="1" cellspacing="0" cellpadding="2">
 				
 					<xsl:apply-templates select="resultat/matiere">
 					<xsl:sort select="nom" />
 					</xsl:apply-templates>
 				
-				</TABLE>
+				</TABLE></center>
 			</BODY>
 		</HTML>
 	</xsl:template>
@@ -50,7 +53,7 @@
 	
 <!-- Les templates pour recuperer chaque champ -->
 	<xsl:template match="nom">
-		<TD STYLE="font-size:14pt font-family:serif">
+		<TD STYLE="font-size:13pt; font-family:serif; text-align:center; font-weight:bold;">
 			<xsl:apply-templates />
 		</TD>
 	</xsl:template>
@@ -59,42 +62,48 @@
 	<xsl:template match="resultat">
 		<TD> 
 			<xsl:for-each select="resultatS1">
-				<li> moyenne:<xsl:value-of select="moyenne" /> </li>
+				<li style="list-style-type:none;"> moyenne:<xsl:choose>
+					<xsl:when test="number(moyenne) &lt; 10"><span style="color:red"><xsl:value-of select="moyenne"/></span></xsl:when>
+					<xsl:otherwise><span style="color:green"><xsl:value-of select="moyenne"/></span></xsl:otherwise></xsl:choose> </li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
 			<xsl:for-each select="resultatS1">
-				<li> min:<xsl:value-of select="min" /> </li>
+				<li style="list-style-type:none;"> min:<xsl:choose>
+					<xsl:when test="number(min) &lt; 10"><span style="color:red"><xsl:value-of select="min"/></span></xsl:when>
+					<xsl:otherwise><span style="color:green"><xsl:value-of select="min"/></span></xsl:otherwise></xsl:choose> </li>
 			</xsl:for-each>
 		</TD>		
 		<TD> 
 			<xsl:for-each select="resultatS1">
-				<li> max:<xsl:value-of select="max" /> </li>
+				<li style="list-style-type:none;"> max:<xsl:choose>
+					<xsl:when test="number(max) &lt; 10"><span style="color:red"><xsl:value-of select="max"/></span></xsl:when>
+					<xsl:otherwise><span style="color:green"><xsl:value-of select="max"/></span></xsl:otherwise></xsl:choose> </li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
 			<xsl:for-each select="resultatS1">
-				<li> nbr_admis:<xsl:value-of select="nbr_admis" /> </li>
+				<li style="list-style-type:none;"> nbr_admis:<xsl:value-of select="nbr_admis" /> </li>
 			</xsl:for-each>
 		</TD>
 		<TD> 
 			<xsl:for-each select="resultatS1">
-				<li> nbr_refus:<xsl:value-of select="nbr_refus" /> </li>
+				<li style="list-style-type:none;"> nbr_refus:<xsl:value-of select="nbr_refus" /> </li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
 			<xsl:for-each select="resultatS1">
-				<li> nbr_total:<xsl:value-of select="nbr_total" /> </li>
+				<li style="list-style-type:none;"> nbr_total:<xsl:value-of select="nbr_total" /> </li>
 			</xsl:for-each>
 		</TD>	
 		<TD> 
 			<xsl:for-each select="resultatS2">
-				<li> nbr_admis:<xsl:value-of select="nbr_admis" /> </li>
+				<li style="list-style-type:none;"> nbr_admis:<xsl:value-of select="nbr_admis" /> </li>
 			</xsl:for-each>
 		</TD>	
 		<TD>
 			<xsl:for-each select="resultatS2">
-				<li> nbr_refus:<xsl:value-of select="nbr_refus" /> </li>
+				<li style="list-style-type:none;"> nbr_refus:<xsl:value-of select="nbr_refus" /> </li>
 			</xsl:for-each>
 		</TD>					
 	</xsl:template>

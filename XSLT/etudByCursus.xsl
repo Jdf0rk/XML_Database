@@ -92,6 +92,7 @@
 	<xsl:template match="annee">
 		<TD> <xsl:apply-templates /> </TD>
 	</xsl:template>
+	
 	<xsl:template match="matieres">
 		<TD> 
 			<xsl:for-each select="matiere">
