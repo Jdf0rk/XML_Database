@@ -58,7 +58,7 @@
 	</xsl:template>
 	<xsl:template match="resultat/groupe">
 	<TR style="text-align:center;">
-		<TABLE border="1" cellspacing="0" cellpadding="2">
+		<TABLE border="1" cellspacing="0" cellpadding="2" class="table-hover">
 			
 				<td>Nom</td><td>Prenom</td><td>Date de Naissance</td><td>Annee</td><td>Groupe</td><td>Matières</td><td>Matières notées S1</td><td>Notes S1</td><td>Matières notées S2</td><td colspan="2">Notes S2</td>
 				<span style="font-size:14pt; font-weight:bold;">Promo <xsl:value-of select="text()"/></span><xsl:apply-templates/>
