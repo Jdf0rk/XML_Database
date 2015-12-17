@@ -43,7 +43,7 @@
 	</xsl:template>
 <xsl:template match="cursus">
 	<TR style="text-align:center;">
-		<TABLE border="1" cellspacing="0" cellpadding="2" class="table table-hover">
+		<TABLE border="1" cellspacing="0" cellpadding="2" class="table-hover">
 <td>Nom</td><td>Prenom</td><td>Date de Naissance</td><td>Grade</td><td>Matières Enseignées</td>
 				<span style="font-size:14pt; font-weight:bold;"> Enseignants en  <xsl:value-of select="text()"/></span><xsl:apply-templates/>
 		</TABLE>

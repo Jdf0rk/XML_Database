@@ -31,7 +31,7 @@
 		</HEAD>
 			<BODY><H1 style="text-align:center;">Liste des étudiants qui ont plus de 2 dettes <small>etud2Dettes.xml</small> </H1>
 			
-				 <center><TABLE border="1" cellspacing="0" cellpadding="2" class="table table-hover">
+				 <center><TABLE border="1" cellspacing="0" cellpadding="2" class="table-hover">
 				<span style="font-size:14pt; font-family:serif;"><td>Nom</td><td>Prenom</td><td>Nombre de dettes</td><td>Matières</td><td>Note S1</td><td>Note S2</td></span>
 					<xsl:apply-templates select="resultat/etudiant">
 					<xsl:sort select="nom" />
